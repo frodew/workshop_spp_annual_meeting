@@ -1,0 +1,90 @@
+---
+title: "Follow the User?!"
+subtitle: " Data Donation Studies for Collecting Digital Trace Data"
+---
+
+![Source: Image by Adem Ay via Unsplash](images/social-media.jpg){fig-alt="image of smartphone" fig-align="center" width="700"}
+
+<hr>
+
+## About the workshop
+
+-   💻 Workshop as part of the SPP Annual Meeting
+
+-   📅 [Date TBD]
+
+-   📍 [Location TBD]
+
+-   Workshop led by:
+
+    -   Frieder Rodewald (University of Mannheim): [frieder-rodewald.de](https://frieder-rodewald.de/)
+
+    -   Valerie Hase (LMU Munich): [valerie-hase.com](https://valerie-hase.com/)
+
+    -   Part of the DFG project "*Integrating Data Donations in Survey Infrastructure*" ([see project website](https://data-donation-science.de))
+
+## **Timetable**
+
+|  |  |
+|-------------------|-----------------------------------------------------|
+| ⏰ Session 1 | Welcome & Intro to Digital Traces |
+| ⏰ Session 2 | Data Donation Studies (Participant Perspective) |
+| ⏰ Session 3 | Data Donation Studies (Researcher Perspective) |
+| ⏰ Session 4 | Bias  & Outro |
+
+## Workshop materials
+
+**Session 1️⃣: Welcome & Intro to Digital Traces**
+
+-   [Slides - HTML](01-intro.html)
+
+**Session 2️⃣: Data Donation Studies (Participant Perspective)**
+
+-   [Slides - HTML](02-study-participant-perspective.html)
+
+**Session 3️⃣: Data Donation Studies (Researcher Perspective)**
+
+-   [Slides - HTML](03-study-researcher-perspective.html)
+-   📢 [Data for Task 3](data/sample_youtube.csv)
+
+**Session 4️⃣: Bias & Outro **
+
+-   [Slides - HTML](04-bias-outro.html)
+
+## Further tutorials
+
+(1) Bail, C. A. (2020). What is digital trace data? [Link](https://sicss.io/overview/what-is-digital-trace-data)
+
+<hr>
+
+(2) Jaursch, J., & Lorenz-Spleen, P.(2024). Researcher access to platform data under the DSA: Questions and answers. [Link](https://reclaimingautonomyonline.notion.site/Researcher-access-to-platform-data-under-the-DSA-Questions-and-answers-8f7390f3ae6b4aa7ad53d53158ed257c)
+
+<hr>
+
+(3) Kohne, J. (2025). Data donation with WhatsR. [Link](https://github.com/gesiscss/DataDonationWorkshop2025LMU)
+
+## Further literature
+
+(1) Boeschoten, L., Ausloos, J., Möller, J. E., Araujo, T., & Oberski, D. L. (2022). A framework for privacy preserving digital trace data collection through data donation. *Computational Communication Research*, *4*(2), 388--423. [Link](https://doi.org/10.5117/CCR2022.2.002.BOES)
+
+<hr>
+
+(2) Carrière, T.C., Boeschoten, L., Struminskaya, B. et al. Best practices for studies using digital data donation. *Quality & Quantity*, *59*, 389-–412 (2025). https://doi.org/10.1007/s11135-024-01983-x
+
+<hr>
+
+(3) Haim, M., Leiner, D., & Hase, V. (2023). Integrating Data Donations into Online Surveys. *Medien & Kommunikationswissenschaft*, *71*(1--2), 130--137. [Link](https://doi.org/10.5771/1615-634X-2023-1-2-130)
+
+<hr>
+
+(4) Keusch, F., & Kreuter, F. (2021). Digital trace data. In U. Engel, A. Quan-Haase, S. X. Liu, & L. Lyberg, *Handbook of Computational Social Science*, Volume 1 (1st Edition, p. 100--118). Routledge. [Link](https://doi.org/10.4324/9781003024583-8)
+
+<hr>
+
+(5) Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. *Nature*, *595*(7866), 189--196. [Link](https://doi.org/10.1038/s41586-021-03660-7)
+
+<hr>
+
+(6) Stier, S., Breuer, J., Siegers, P., & Thorson, K. (2020). Integrating Survey Data and Digital Trace Data: Key Issues in Developing an Emerging Field. *Social Science Computer Review*, *38*(5), 503--516. [Link](https://doi.org/10.1177/0894439319843669)
+
+<hr>

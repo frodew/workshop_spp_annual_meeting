@@ -1,0 +1,308 @@
+---
+title: |
+    Follow the User?!
+subtitle: Data Donation Studies for Collecting Digital Trace Data
+author:
+    - name: Frieder Rodewald
+      orcid: 0000-0000-0000-0000
+      affiliations: University of Mannheim
+    - name: Valerie Hase
+      orcid: 0000-0000-0000-0000
+      affiliations: LMU Munich
+date: today
+date-format: long
+bibliography: references/references.bib
+csl: references/apa.csl
+execute:
+  eval: false
+  echo: true
+format:
+  unima-quarto-revealjs:
+    footer: Data Donation Studies - SPP Annual Meeting
+    embed-resources: true
+    email-obfuscation: none
+    code-line-numbers: true
+    toc: false
+    toc-depth: 3
+    number-sections: false
+    number-depth: 3
+    incremental: false
+    slide-level: 2
+    slide-number: c
+    show-slide-number: all
+    title-slide-style: default
+    center-title-slide: true
+    show-notes: false
+    scrollable: true
+    smaller: false
+    overview: true
+    menu: true
+    chalkboard: false
+    multiplex: false
+    transition: fade
+    transition-speed: fast
+    progress: true
+    history: false
+    navigation-mode: linear
+    keyboard: true
+    mouse-wheel: true
+    hide-inactive-cursor: true
+    hide-cursor-time: 500
+    loop: false
+    help: true
+    slide-tone: false
+    preview-links: true
+    auto-stretch: true
+    margin: 0.14
+    center: false
+    disable-layout: false
+    citations-hover: true
+    footnotes-hover: true
+    reference-location: document
+---
+
+## Session 1️⃣: Welcome & Intro to Digital Traces
+
+👉 Part of the SPP DFG Project [Integrating Data Donations in Survey Infrastructure](https://data-donation-science.de)
+
+## Agenda
+
+**1. Intro to the workshop**
+
+**2. What is digital trace data?**
+
+**3. How can we collect digital traces?**
+
+![Image by Hope House Press via Unsplash](images/agenda.jpg){fig-align="left" width="10%"}
+
+##
+
+::: {.v-center}
+
+**Before we start: Have you requested and downloaded your DDP?** 🤔
+
+:::
+
+## 1. Intro (Valerie)
+
+![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
+
+## Who are you?
+
+Please raise your hand 🤚 if you ....
+
+- are familiar with the term digital trace data
+- have worked with APIs
+- have worked with data donation
+- have worked with automated content analysis
+- regularly use programming languages (e.g., R, Python)
+
+## About us: Frieder Rodewald
+
+![](images/frieder-rodewald.jpg){fig-alt="Frieder Rodwald" width="200"}
+
+PhD, University of Mannheim (DFG project on data donation)
+
+Research interests:
+
+-   CSS (automated content analysis, digital traces, bias)
+
+-   Privacy concerns & behavior \
+"I study what people do online"
+
+More info: [github.com/frodew](https://github.com/frodew) & [frieder-rodewald.de](https://frieder-rodewald.de/)
+
+## About us: Valerie Hase
+
+![](images/valerie-hase.jpg){fig-alt="Valerie Hase" width="200"}
+
+Akademische Rätin a. Z./Postdoc, LMU Munich (prev.: University of Zurich & LSE)
+
+Research interests:
+
+-   CSS (automated content analysis, digital traces, bias, data access)
+-   Digital journalism, crisis communication
+
+More info: [github.com/valeriehase](https://github.com/valeriehase) & [valerie-hase.com](https://valerie-hase.com/)
+
+## What is the goal of this workshop?
+
+- ✅ Understanding digital data traces as a *type* of data
+- ✅ Understanding data donation as a *method* of data access
+- ✅ Working through key steps of data donation methods (user & researcher view)
+- ✅ Discussing when (not) to use data donation studies
+- ❌ Detailed implementation (e.g., server set-up, coding data extraction scripts)
+
+## 2. What is digital trace data? (Frieder)
+
+![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
+
+##
+
+::: {.v-center}
+
+*Which examples for digital trace data you know?* 🤔
+
+:::
+
+## What is digital trace data?
+
+**Definition** 💡: *The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena*
+
+-   e.g., tweets, likes, shares on social media
+-   e.g., geo data (locations, movements)
+-   e.g., digital payments
+-   e.g., Spotify playlists
+
+## What is digital trace data?
+
+**Definition** 💡: *The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena*
+
+-   e.g., tweets, **likes**, shares on social media
+
+**Example: Instagram Like**
+
+![](images/instagram-1.JPG){fig-alt="Screenshot of Instagram Like" fig-align="left" width="200"}
+
+## What is digital trace data?
+
+**Definition** 💡: *The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena*
+
+-   e.g., tweets, **likes**, shares on social media
+
+**Example: Instagram Like**
+
+![](images/instagram-2.JPG){fig-alt="Data behind Instagram Like" fig-align="left" width="200"}
+
+## Where can we find/collect digital trace data?
+
+-   Apps (e.g., running apps)
+-   Social media platforms (e.g., Instagram)
+-   Payment systems (e.g., Paypal)
+-   Wearable devices (e.g., smart watch)
+
+## Which types of data does this include?
+
+Depending on the data collection method... [@stollfus_computational_2023; @ohme_digital_2024]:
+
+- often fine-grained (e.g., time-stamped)
+- often longitudinal (e.g., over years, within-individual change)
+- often less reactive (e.g., less concerns about social desirability)
+
+## Which (latent) constructs can we measure?
+
+-   **Internet use** [@parry_etal2021] related to ...
+    -   well-being [@ohme_digital_2024]
+    -   voting [@bach_etal2021]
+-   **News engagement** [@reiss_2023] related to ...
+    -   news diversity [@juergens_etal2022]
+    -   public opinion formation [@yan_etal2022]
+-   **Movements** related to ...
+    -   Mobility during pandemics [@li_etal2021]
+    -   Social networks [@sepulvado_etal2022]
+
+## Why are digital traces becoming more popular?
+
+-   Problems with self-reported data (e.g., via survey)
+
+"How many minutes a day do you use the internet to consume news?"
+
+![Source: Image by Scott Graham via Unsplash](images/survey.jpg){fig-alt="image of human filling out survey" fig-align="left" width="300"}
+
+- „internet"?
+- „news"?
+- „how many minutes"?
+
+## Why are digital traces becoming more popular?
+
+-   **Problems with self-reported data** (e.g., via survey)
+    -   Self-reported data subject to specific bias [@scharkow_accuracy_2016; @parry_etal2021]
+    -   Response rates in surveys are declining [@luiten_survey_2020]
+
+## Why are digital traces becoming more popular?
+
+-   **Problems with self-reported data** (e.g., via survey)
+-   **Availabillity**
+    -   cheap (e.g., via APIs)
+    -   large data sets ("big data")
+
+**Be careful**: These "advantages" are often claimed, but **not** empirically proven.
+
+Digital traces are neither necessarily less biased, nor cheaper, or larger (we will discuss this in Session 4️⃣).
+
+## (Dis-)advantages of digital trace data
+
+-   ✅ More fine-grained, often longitudinal measures due to timestamps
+-   ✅ Partly measurement of new variables (e.g., algorithmic inference)
+-   ❌ Bias due to errors in representation and measurement
+-   ❌ Implementation can be expensive and cumbersome
+-   ❌ More data does not mean better data!
+
+## Summary: What is digital trace data? 📚
+
+-   **Definition**: *The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena*
+
+-   **Further literature**
+
+    -   @engel_digital_2021
+
+    -   @stollfus_computational_2023
+
+    -   @ohme_digital_2024
+
+## 3. How can we collect digital traces? (Valerie)
+
+![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
+
+##
+
+::: {.v-center}
+
+Which methods do you know/have you used for collecting digital trace data*?* 🤔
+
+:::
+
+## Platform- and user-centric methods
+
+-   **Platform-centric** (based on platform cooperation)
+    -   API [@engel_brief_2021]
+    -   Cooperation with platforms [@wagner_etal2023]
+-   **User-centric** (based on user cooperation and informed consent) or "follow the user" approaches [@caliandro_2024]
+    -   Data donation [@carriere_etal2024]
+    -   Linkage [@sloan_etal2020]
+    -   Sensors [@struminskaya_etal2021]
+    -   Tracking [@christner_etal2022]
+
+## Platform- and user-centric methods
+
+-   Restrictions of platform-centric methods
+    -   Discontinuation of APIs [@freelon_2018]
+    -   Concerns about bias [@schatto-eckrodt_2022; @ulloa_etal2025]
+-   User-centric methods become more popular, given ...
+    -   Changes in law that enable such studies (GDPR, DSA)
+    -   Presumably (!) less biased data
+    -   Ethical considerations (informed consent)
+
+## Summary: How can we collect digital traces? 📚
+
+-   **Summary**
+
+    -   Central methods including platform-centric methods (e.g., APIs) and user-centric methods (e.g., data donation)
+
+    -   Key differences: control over samples & measurements, legal & ethical contexts
+
+-   **Further literature**
+
+    -   @stollfus_computational_2023
+
+    -   @ohme_digital_2024
+
+##
+
+::: {.v-center}
+
+**Questions?** 🤔
+
+:::
+
+## References {.smallest}

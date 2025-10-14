@@ -1,0 +1,111 @@
+---
+title: |
+    My Presentation
+subtitle: and a subtitle
+author:
+    - name: First Last
+      orcid: 0000-0000-0000-0000
+      affiliations: University of Mannheim
+    - name: First Last 2
+      orcid: 0000-0000-0000-0000
+      affiliations: University of Mannheim
+date: today
+date-format: long
+# bibliography: references.bib --- ADD YOUR ZOTERO BIBLIOGRAPHY HERE
+execute:
+  eval: false
+  echo: true
+format:
+  unima-quarto-revealjs:
+    footer: My Footer - Name
+    ## As one HTML-file
+    embed-resources: true
+    ## (Code) Format Options
+    email-obfuscation: none
+    code-line-numbers: true
+    ## Table of Contents
+    toc: false
+    toc-depth: 3
+    toc-title: Overview
+    ## Numbering
+    number-sections: false
+    number-depth: 3
+    ## Slides
+    incremental: false
+    slide-level: 2
+    slide-number: c
+    show-slide-number: all
+    title-slide-style: default
+    center-title-slide: true
+    show-notes: false
+    ## Slide Content
+    scrollable: true
+    smaller: false
+    ## Slide Tools
+    overview: true
+    menu: true
+    chalkboard: false
+    multiplex: false
+    ## Transitions
+    transition: fade
+    transition-speed: fast
+    ## Navigation
+    progress: true
+    history: false
+    navigation-mode: linear
+    keyboard: true
+    mouse-wheel: true
+    hide-inactive-cursor: true
+    hide-cursor-time: 500
+    loop: false
+    help: true
+    slide-tone: false
+    ## Media
+    preview-links: true
+    ## Slide Layout
+    auto-stretch: true
+    # width: 1600
+    # height: 1040
+    margin: 0.14
+    center: false
+    disable-layout: false
+    ## References
+    citations-hover: true
+    ## Footnotes
+    footnotes-hover: true
+    reference-location: document
+---
+
+## Basic Features
+
+- This is a basic slide, starting with a `##` title.
+- You can wrap citations `[@some_author]` in another pair of brackets and add cite-class `[[@some_author]]{.cite}` to make the citations smaller.
+- If you want single slides with little content, you can do that in a code-block and a v-center-class to center the content.
+
+```{.q code-line-numbers="3" filename="template.qmd"}
+::: {.v-center}
+
+Some centered content here.
+
+:::
+```
+---
+
+- If you have some citations in your slides, add the `{.smallest}` class to your literature slide and the bibliography should be displayed without any overflow.
+- And here is a nice fact with a cool comment [[@some_author]]{.cite}.
+
+## More Information
+
+- If you have further questions feel free to to check out the [quarto documentation](https://quarto.org/docs/presentations/revealjs/), specifically [revealjs](https://quarto.org/docs/presentations/revealjs/advanced.html).
+- The [quarto-cli community](https://github.com/quarto-dev/quarto-cli) has also already answered the questions you might have in an issue or discussion! For example, check out how to add [fontawesome icons](https://github.com/quarto-ext/fontawesome) to your quarto slides.
+- And if that does not help, you could submit an issue here and maybe I can help you out.
+
+## Literature {.smallest}
+
+This only gets small if there are citations here...
+
+The bibliography will be displayed here.
+
+Some author and their book/paper.
+
+The list goes on.

@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Data Donation Studies: SPP Annual Meeting Workshop"
+  navbar:
+    search: false
+    pinned: true
+    tools:
+      - icon: github
+        href: https://github.com/[YOUR-USERNAME]/workshop_spp_annual_meeting
+      - icon: website
+        href: https://data-donation-science.de
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css
