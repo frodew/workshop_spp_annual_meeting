@@ -67,21 +67,21 @@
     "href": "index.html#about-the-workshop",
     "title": "What do people do online?",
     "section": "About the workshop",
-    "text": "About the workshop\n\n💻 Workshop as part of the SPP Annual Meeting\n📅 22nd October 2025\n📍 LIfBi Bamberg\nWorkshop led by Frieder Rodewald (University of Mannheim): frieder-rodewald.de\nPart of the DFG project “Integrating Data Donations in Survey Infrastructure” (see project website)"
+    "text": "About the workshop\n\n💻 Workshop as part of the SPP Annual Meeting\n📅 22nd October 2025\n📍 LIfBi Bamberg\nWorkshop led by Frieder Rodewald (University of Mannheim & Institute for Employment Research) - frieder-rodewald.de - and Sebastian Prechsl (Institute for Employment Research & LMU Munich) - iab.de\nPart of the DFG project “Integrating Data Donations in Survey Infrastructure” (see project website)\nBased on a workshop at the CompText 2025 in Vienna (with Valerie Hase)"
   },
   {
-    "objectID": "index.html#timetable",
-    "href": "index.html#timetable",
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
     "title": "What do people do online?",
-    "section": "Timetable",
-    "text": "Timetable\n\n\n\n\n\n\n\n⏰ Session 1\nWelcome & Intro to Digital Traces\n\n\n⏰ Session 2\nData Donation Studies (Participant Perspective)\n\n\n⏰ Session 3\nData Donation Studies (Researcher Perspective)"
+    "section": "Overview",
+    "text": "Overview\n\n\n\n\n\n\n\n⏰ Part 1\nWhat is digital trace data?\n\n\n⏰ Part 2\nWhat is data donation? - The participant’s perspective.\n\n\n⏰ Part 3\nWhat is data donation? - The researcher’s perspective."
   },
   {
     "objectID": "index.html#workshop-materials",
     "href": "index.html#workshop-materials",
     "title": "What do people do online?",
     "section": "Workshop materials",
-    "text": "Workshop materials\nSession 1️⃣: Welcome & Intro to Digital Traces\n\nSlides - HTML\nSlides - PDF\n\nSession 2️⃣: Data Donation Studies (Participant Perspective)\n\nSlides - HTML\nSlides - PDF\n\nSession 3️⃣: Data Donation Studies (Researcher Perspective)\n\nSlides - HTML\nSlides - PDF"
+    "text": "Workshop materials\nPart 1️⃣: What is digital trace data?\n\nSlides - HTML\nSlides - PDF\n\nPart 2️⃣: What is data donation? - The participant’s perspective.\n\nSlides - HTML\nSlides - PDF\n\nPart 3️⃣: What is data donation? - The researcher’s perspective.\n\nSlides - HTML\nSlides - PDF"
   },
   {
     "objectID": "index.html#further-tutorials",
@@ -95,7 +95,7 @@
     "href": "index.html#further-literature",
     "title": "What do people do online?",
     "section": "Further literature",
-    "text": "Further literature\n\nBoeschoten, L., Ausloos, J., Möller, J. E., Araujo, T., & Oberski, D. L. (2022). A framework for privacy preserving digital trace data collection through data donation. Computational Communication Research, 4(2), 388–423. Link\n\n\n\nCarrière, T.C., Boeschoten, L., Struminskaya, B. et al. Best practices for studies using digital data donation. Quality & Quantity, 59, 389-–412 (2025). https://doi.org/10.1007/s11135-024-01983-x\n\n\n\nHaim, M., Leiner, D., & Hase, V. (2023). Integrating Data Donations into Online Surveys. Medien & Kommunikationswissenschaft, 71(1–2), 130–137. Link\n\n\n\nKeusch, F., & Kreuter, F. (2021). Digital trace data. In U. Engel, A. Quan-Haase, S. X. Liu, & L. Lyberg, Handbook of Computational Social Science, Volume 1 (1st Edition, p. 100–118). Routledge. Link\n\n\n\nLazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. Nature, 595(7866), 189–196. Link\n\n\n\nStier, S., Breuer, J., Siegers, P., & Thorson, K. (2020). Integrating Survey Data and Digital Trace Data: Key Issues in Developing an Emerging Field. Social Science Computer Review, 38(5), 503–516. Link"
+    "text": "Further literature\n\nBoeschoten, L., Ausloos, J., Möller, J. E., Araujo, T., & Oberski, D. L. (2022). A framework for privacy preserving digital trace data collection through data donation. Computational Communication Research, 4(2), 388–423. Link\n\n\n\nCarrière, T.C., Boeschoten, L., Struminskaya, B. et al. Best practices for studies using digital data donation. Quality & Quantity, 59, 389-–412 (2025). https://doi.org/10.1007/s11135-024-01983-x\n\n\n\nHaim, M., Leiner, D., & Hase, V. (2023). Integrating Data Donations into Online Surveys. Medien & Kommunikationswissenschaft, 71(1–2), 130–137. Link\n\n\n\nKeusch, F., & Kreuter, F. (2021). Digital trace data. In U. Engel, A. Quan-Haase, S. X. Liu, & L. Lyberg, Handbook of Computational Social Science, Volume 1 (1st Edition, p. 100–118). Routledge. Link\n\n\n\nKeusch, F., Pankowska, P. K., Cernat, A., & Bach, R. L. (2024). Do you have two minutes to talk about your data? Willingness to participate and nonparticipation bias in Facebook data donation. Field Methods, 36(4), 279-293. Link\n\n\n\nLazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. Nature, 595(7866), 189–196. Link\n\n\n\nStier, S., Breuer, J., Siegers, P., & Thorson, K. (2020). Integrating Survey Data and Digital Trace Data: Key Issues in Developing an Emerging Field. Social Science Computer Review, 38(5), 503–516. Link"
   },
   {
     "objectID": "03_data_donation_researcher_perspective.html#decisions-we-took",
@@ -110,13 +110,6 @@
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": " Survey",
     "text": "Survey\n\nSurvey on platform usage (YouTube, Instagram, and LinkedIn), labor market characteristics and common indicators for non-participation"
-  },
-  {
-    "objectID": "03_data_donation_researcher_perspective.html#data-request-download",
-    "href": "03_data_donation_researcher_perspective.html#data-request-download",
-    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
-    "section": " Data request & download",
-    "text": "Data request & download"
   },
   {
     "objectID": "03_data_donation_researcher_perspective.html#strategy-to-make-the-extraction-work",
@@ -207,7 +200,14 @@
     "href": "01_intro_digital_trace_data.html#about-me-frieder-rodewald",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "About me: Frieder Rodewald",
-    "text": "About me: Frieder Rodewald\n🎓 PhD, University of Mannheim & Institute for Employment Research\n🧐 Research interests: “I study what people do online.”\n\n\nMore info: github.com/frodew & frieder-rodewald.de\nA huge thanks to Valerie Hase, for conceptualizing a previous data donation workshop at CompText in Vienna."
+    "text": "About me: Frieder Rodewald\n🎓 PhD, University of Mannheim & Institute for Employment Research\n🧐 Research interests: “I study what people do online.”\n\n\nMore info: github.com/frodew & frieder-rodewald.de"
+  },
+  {
+    "objectID": "01_intro_digital_trace_data.html#about-me-sebastian-prechsl",
+    "href": "01_intro_digital_trace_data.html#about-me-sebastian-prechsl",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "About me: Sebastian Prechsl",
+    "text": "About me: Sebastian Prechsl\n…"
   },
   {
     "objectID": "01_intro_digital_trace_data.html#what-is-the-goal-of-this-workshop",
