@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  post-render:
+    - ./generate-pdfs.sh
 
 website:
   title: "Data Donation Studies: SPP Annual Meeting Workshop"
@@ -9,7 +11,7 @@ website:
     pinned: true
     tools:
       - icon: github
-        href: https://github.com/[YOUR-USERNAME]/workshop_spp_annual_meeting
+        href: https://github.com/frodew/workshop_spp_annual_meeting
       - icon: website
         href: https://data-donation-science.de
 

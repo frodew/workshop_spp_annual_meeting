@@ -1,6 +1,6 @@
 ---
-title: "Follow the User?!"
-subtitle: " Data Donation Studies for Collecting Digital Trace Data"
+title: "What do people do online?"
+subtitle: "Using data donation to understand digital behavior."
 ---
 
 ![Source: Image by Adem Ay via Unsplash](images/social-media.jpg){fig-alt="image of smartphone" fig-align="center" width="700"}
@@ -11,17 +11,13 @@ subtitle: " Data Donation Studies for Collecting Digital Trace Data"
 
 -   💻 Workshop as part of the SPP Annual Meeting
 
--   📅 [Date TBD]
+-   📅 22^nd^ October 2025
 
--   📍 [Location TBD]
+-   📍 LIfBi Bamberg
 
--   Workshop led by:
+-   Workshop led by Frieder Rodewald (University of Mannheim): [frieder-rodewald.de](https://frieder-rodewald.de/)
 
-    -   Frieder Rodewald (University of Mannheim): [frieder-rodewald.de](https://frieder-rodewald.de/)
-
-    -   Valerie Hase (LMU Munich): [valerie-hase.com](https://valerie-hase.com/)
-
-    -   Part of the DFG project "*Integrating Data Donations in Survey Infrastructure*" ([see project website](https://data-donation-science.de))
+-   Part of the DFG project "*Integrating Data Donations in Survey Infrastructure*" ([see project website](https://data-donation-science.de))
 
 ## **Timetable**
 
@@ -30,26 +26,24 @@ subtitle: " Data Donation Studies for Collecting Digital Trace Data"
 | ⏰ Session 1 | Welcome & Intro to Digital Traces |
 | ⏰ Session 2 | Data Donation Studies (Participant Perspective) |
 | ⏰ Session 3 | Data Donation Studies (Researcher Perspective) |
-| ⏰ Session 4 | Bias  & Outro |
 
 ## Workshop materials
 
 **Session 1️⃣: Welcome & Intro to Digital Traces**
 
 -   [Slides - HTML](01-intro.html)
+-   [Slides - PDF](pdf/01-intro.pdf)
 
 **Session 2️⃣: Data Donation Studies (Participant Perspective)**
 
 -   [Slides - HTML](02-study-participant-perspective.html)
+-   [Slides - PDF](pdf/02-study-participant-perspective.pdf)
 
 **Session 3️⃣: Data Donation Studies (Researcher Perspective)**
 
 -   [Slides - HTML](03-study-researcher-perspective.html)
--   📢 [Data for Task 3](data/sample_youtube.csv)
+-   [Slides - PDF](pdf/03-study-researcher-perspective.pdf)
 
-**Session 4️⃣: Bias & Outro **
-
--   [Slides - HTML](04-bias-outro.html)
 
 ## Further tutorials
 

@@ -1,0 +1,333 @@
+---
+title: |
+     What do people do online? \
+     Using data donation to understand digital behavior.
+subtitle: a workshop at the SPP Junior Researcher Meeting
+author:
+    - name: Frieder Rodewald
+      orcid: 0009-0009-6859-5761
+      affiliations: University of Mannheim & Institute for Employment Research
+date: 10-22-2025
+date-format: long
+bibliography: references.bib
+execute:
+  eval: false
+  echo: true
+format:
+  unima-quarto-revealjs:
+    footer: Data Donation Workshop - Frieder Rodewald
+    ## As one HTML-file
+    embed-resources: true
+    ## (Code) Format Options
+    email-obfuscation: none
+    code-line-numbers: true
+    ## Table of Contents
+    toc: false
+    toc-depth: 3
+    toc-title: Overview
+    ## Numbering
+    number-sections: false
+    number-depth: 3
+    ## Slides
+    incremental: false
+    slide-level: 2
+    slide-number: c
+    show-slide-number: all
+    title-slide-style: default
+    center-title-slide: true
+    show-notes: false
+    ## Slide Content
+    scrollable: true
+    smaller: false
+    ## Slide Tools
+    overview: true
+    menu: true
+    chalkboard: false
+    multiplex: false
+    ## Transitions
+    transition: fade
+    transition-speed: fast
+    ## Navigation
+    progress: true
+    history: false
+    navigation-mode: linear
+    keyboard: true
+    mouse-wheel: true
+    hide-inactive-cursor: true
+    hide-cursor-time: 500
+    loop: false
+    help: true
+    slide-tone: false
+    ## Media
+    preview-links: true
+    ## Slide Layout
+    auto-stretch: true
+    # width: 1600
+    # height: 1040
+    margin: 0.14
+    center: false
+    disable-layout: false
+    ## References
+    citations-hover: true
+    ## Footnotes
+    footnotes-hover: true
+    reference-location: document
+---
+
+# 3️⃣ What is data donation?
+
+The researcher's perspective.
+
+---
+
+::: {.v-center}
+
+🤔 What are methodological decisions researchers have to take in data donation studies?
+
+:::
+
+---
+
+🔑 Key decisions:
+
+-   Which theoretical questions do I want to answer?
+-   How do I operationalize key variables via my data donation tool?
+-   How do I integrate the tool in surveys & recruit participants?
+
+---
+
+::: {.v-center}
+<table style="width: 100%; border: none;">
+  <tr>
+    <td style="text-align: center; border: none;">{{< fa square-poll-horizontal size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa file-arrow-down size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa spinner size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa magnifying-glass-chart size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa square-check size=4x >}}</td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">Survey</td>
+    <td style="text-align: center;">Request & Download Data</td>
+    <td style="text-align: center;">Extract Data</td>
+    <td style="text-align: center;">Inspect Data</td>
+    <td style="text-align: center;">Consent</td>
+  </tr>
+</table>
+:::
+
+---
+
+## Decisions we took {.smaller}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![](images/preprint_cover.png)
+:::
+
+::: {.column width="60%"}
+
+- **Goal**: Increase participation in the context of labour market studies and understand non-response bias
+- **Issue**: Low response rates [e.g., [[@hase_haim2024; @keusch_etal2024]]{.cite}]
+    - Behavioral intentions as "willingness to donate" high (79-52% of survey respondents)
+    - Actual behavior as "participation in data donation" low (37-12% of survey respondents)
+    - Well known intention-behavior gap; where 🤑 seems to help [[@kmetty_etal2025]]{.cite}
+- **Sample**: A non-probability panel (online access panel)
+
+:::
+
+::::
+
+## {{< fa square-poll-horizontal >}} Survey
+
+- Survey on platform usage (YouTube, Instagram, and LinkedIn), labor market characteristics and common indicators for non-participation
+
+## {{< fa file-arrow-down >}} Data request & download
+
+# {{< fa spinner >}} Data extraction
+
+## 🛠️ Strategy to make the extraction work
+
+1. Take a look at the DDP; download it, best for multiple time periods and for different languages
+2. Understand the structure of the JSON or CSV.
+3. Get an example file running.
+4. Write the code for the extraction script.
+5. Test your script, first locally and then in the wild.
+6. Adapt your script.
+
+---
+
+::: {.v-center}
+
+**📢 Task: Try it yourself.**
+
+Take a look at your downloaded data. What do you see; anything caught your eye?
+\
+\
+Feel free to work in groups of 2-3 people for 5 minutes.
+
+:::
+
+---
+
+Different degrees in standardization for DDP content [[@hase_etal2024]]{.cite}...
+
+- Documentation
+  - DDP structure?
+  - Measurements?
+
+- Completeness & scope
+
+  - Missing data?
+  - Limited time frames?
+  - Language sensitive?
+
+## 🚨 Key issues  [[@hase_etal2024]]{.cite}
+
+-   Missing documentation by platforms (e.g., file structure)
+-   Sudden changes in DDPs
+-   Differences across languages & devices
+-   Insufficient in-tool classification (e.g., LLM integration)
+
+## Example: Extract list of subscriptions
+
+![subscriptions.csv (before processing)](images/subscriptions_csv.png){fig-align="left" width="200"}
+
+---
+
+```{.python}
+...
+    "subscriptions": {
+        "extraction_function": ef.extract_subscriptions,
+        "possible_filenames": ["Abos.csv", "subscriptions.csv"],
+        "title": {
+            "en": "Which channels are you subscribed to?",
+            "de": "Welche Kanäle haben Sie abonniert?",
+            "nl": "Op welke kanalen ben je geabonneerd?",
+        },
+    },
+...
+```
+
+---
+
+```{.python code-line-numbers="1-20"}
+def extract_youtube_content_from_zip_folder(zip_file_path, possible_filenames):
+    """Extract content from YouTube data export zip file using filenames"""
+
+    try:
+        with zipfile.ZipFile(zip_file_path, "r") as zip_ref:
+            # Get the list of file names in the zip file
+            filenames = zip_ref.namelist()
+            # Look for matching files
+            for possible_filename in possible_filenames:
+                for filename in filenames:
+                    if possible_filename in filename:
+                        try:
+                            # Process based on file extension
+                            if filename.endswith(".json"):
+                                with zip_ref.open(filename) as json_file:
+                                    json_content = json.loads(json_file.read())
+                                    return json_content
+                            elif file_name.endswith(".csv"):
+                                with zip_ref.open(file_name) as csv_file:
+                                    csv_content = pd.read_csv(csv_file)
+```
+
+---
+
+```{.python code-line-numbers="1-15"}
+def extract_subscriptions(subscriptions_csv):
+    """Extract YouTube channel subscriptions"""
+
+    # Define column name
+    if "Kanaltitel" in subscriptions_csv.columns:
+        channel_column = "Kanaltitel"
+    else:
+        channel_column = "Channel Title"
+
+    # Define description
+    channel_name = "Subscribed Channel"
+
+    # Create DataFrame with just the channel names
+    subscriptions_df = pd.DataFrame({channel_name: subscriptions_csv[channel_column]})
+    return subscriptions_df
+```
+
+---
+
+![subscriptions.csv (after processing)](images/subscriptions_donated.png){fig-align="left" width="200"}
+
+# {{< fa magnifying-glass-chart >}} Data inspection
+
+# {{< fa square-check >}} Data donation
+
+- A data donation platform helps to guide them through the process
+- The process should be made as easy as possible for participants
+
+## 📚 Workshop Takeaways
+
+- There are many ways in which researchers can learn about people's online behavior through digital trace data
+- People can request, download and finally donate their (anonymized) data form most online platforms
+- Data donation can be burdensome for participants
+- Data quailty heavily depends on the platform and what kind of data you extract from participants
+
+---
+
+::: {.v-center}
+
+Thank you for participating; happy to talk with you about data donation (and anything else) throughout the next days.
+
+:::
+
+## EXTRA: Can I extend the data?
+
+-   Manual annotation by participants during data donation
+-   APIs/scraping to extend collected data
+-   Text-as-data methods for classification
+
+## EXTRA: Errors in representation
+
+For example ...
+
+-   **Coverage error**: Who is (not) represented in the sampling frame? (e.g., social media users vs. YouTube users)
+-   **Sampling error**: Who is (not) represented in the sample? (e.g., non-probability samples)
+-   **Non-response error**: Who does (not) want to participate in the data donation?
+-   **Compliance error**: Who is (not) able to participate in the data donation?
+
+---
+
+::: {.v-center}
+
+🤔 *What do you think: Which participant characteristics may correlate with non-response or non-compliance?*
+
+:::
+
+# EXTRA: What's next for data donation studies?
+
+## Advancing the method
+
+-   📸 Multimodal & cross-platform data [[@wedel_etal2024]]{.cite}
+-   In-tool, local classification (e.g., local ML/LLMs?)
+-   Workflow/UX-perspective
+
+## Data as a political tool
+
+-   Platforms do (willingly?) not provide data according to the GDPR/DSA [[@hase_etal2024]]{.cite}
+-   The EU has started to sanction platforms like X/TikTok
+-   DSA may become the subject of larger geo-political debates with the USA [[@seiling_etal2025]]{.cite}
+
+## 🚀 Can we improve & apply the method?
+
+-   Can the method actually be applied for empirical research? (few examples, like [[@thorson_etal2021; @wojcieszak_etal2024]]{.cite})
+-   Requires interdisciplinary perspectives (e.g., addressing bias, integration in probability-based panels)
+
+---
+
+::: {.v-center}
+
+🤔 **Questions?**
+
+:::
+
+## References {.smallest}
