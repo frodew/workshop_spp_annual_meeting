@@ -7,6 +7,9 @@ author:
     - name: Frieder Rodewald
       orcid: 0009-0009-6859-5761
       affiliations: University of Mannheim & Institute for Employment Research
+    - name: Sebastian Prechsl
+      orcid: 0000-0001-9033-7317
+      affiliations: Institute for Employment Research & LMU Munich
 date: 10-22-2025
 date-format: long
 bibliography: references.bib
@@ -15,7 +18,7 @@ execute:
   echo: true
 format:
   unima-quarto-revealjs:
-    footer: Data Donation Workshop - Frieder Rodewald
+    footer: Data Donation Workshop - Frieder & Sebastian
     ## As one HTML-file
     embed-resources: true
     ## (Code) Format Options
@@ -142,7 +145,7 @@ The researcher's perspective.
 
 - Survey on platform usage (YouTube, Instagram, and LinkedIn), labor market characteristics and common indicators for non-participation
 
-## {{< fa file-arrow-down >}} Data request & download
+# {{< fa file-arrow-down >}} Data request & download
 
 # {{< fa spinner >}} Data extraction
 
@@ -299,7 +302,7 @@ For example ...
 
 ::: {.v-center}
 
-🤔 *What do you think: Which participant characteristics may correlate with non-response or non-compliance?*
+🤔 What do you think: Which participant characteristics may correlate with non-response or non-compliance?
 
 :::
 

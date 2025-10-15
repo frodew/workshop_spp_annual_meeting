@@ -9,40 +9,42 @@ subtitle: "Using data donation to understand digital behavior."
 
 ## About the workshop
 
--   💻 Workshop as part of the SPP Annual Meeting
+- 💻 Workshop as part of the SPP Annual Meeting
 
--   📅 22^nd^ October 2025
+- 📅 22^nd^ October 2025
 
--   📍 LIfBi Bamberg
+- 📍 LIfBi Bamberg
 
--   Workshop led by Frieder Rodewald (University of Mannheim): [frieder-rodewald.de](https://frieder-rodewald.de/)
+- Workshop led by Frieder Rodewald (University of Mannheim & Institute for Employment Research) - [frieder-rodewald.de](https://frieder-rodewald.de/) - and Sebastian Prechsl (Institute for Employment Research & LMU Munich) - [iab.de](https://iab.de/en/employee/prechsl-sebastian/)
 
--   Part of the DFG project "*Integrating Data Donations in Survey Infrastructure*" ([see project website](https://data-donation-science.de))
+- Part of the DFG project "*Integrating Data Donations in Survey Infrastructure*" ([see project website](https://data-donation-science.de))
 
-## **Timetable**
+- Based on a workshop at the [CompText 2025 in Vienna](https://valeriehase.github.io/comptext-data-donation/) (with Valerie Hase)
+
+## **Overview**
 
 |  |  |
 |-------------------|-----------------------------------------------------|
-| ⏰ Session 1 | Welcome & Intro to Digital Traces |
-| ⏰ Session 2 | Data Donation Studies (Participant Perspective) |
-| ⏰ Session 3 | Data Donation Studies (Researcher Perspective) |
+| ⏰ Part 1 | What is digital trace data? |
+| ⏰ Part 2 | What is data donation? - The participant's perspective. |
+| ⏰ Part 3 | What is data donation? - The researcher's perspective. |
 
 ## Workshop materials
 
-**Session 1️⃣: Welcome & Intro to Digital Traces**
+**Part 1️⃣: What is digital trace data?**
 
--   [Slides - HTML](01-intro.html)
--   [Slides - PDF](pdf/01-intro.pdf)
+-   [Slides - HTML](01_intro_digital_trace_data.html)
+-   [Slides - PDF](pdf/01_intro_digital_trace_data.pdf)
 
-**Session 2️⃣: Data Donation Studies (Participant Perspective)**
+**Part 2️⃣: What is data donation? - The participant's perspective.**
 
--   [Slides - HTML](02-study-participant-perspective.html)
--   [Slides - PDF](pdf/02-study-participant-perspective.pdf)
+-   [Slides - HTML](02_data_donation_participant_perspective.html)
+-   [Slides - PDF](pdf/02_data_donation_participant_perspective.pdf)
 
-**Session 3️⃣: Data Donation Studies (Researcher Perspective)**
+**Part 3️⃣: What is data donation? - The researcher's perspective.**
 
--   [Slides - HTML](03-study-researcher-perspective.html)
--   [Slides - PDF](pdf/03-study-researcher-perspective.pdf)
+-   [Slides - HTML](03_data_donation_researcher_perspective.html)
+-   [Slides - PDF](pdf/03_data_donation_researcher_perspective.pdf)
 
 
 ## Further tutorials
@@ -75,10 +77,14 @@ subtitle: "Using data donation to understand digital behavior."
 
 <hr>
 
-(5) Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. *Nature*, *595*(7866), 189--196. [Link](https://doi.org/10.1038/s41586-021-03660-7)
+(5) Keusch, F., Pankowska, P. K., Cernat, A., & Bach, R. L. (2024). Do you have two minutes to talk about your data? Willingness to participate and nonparticipation bias in Facebook data donation. Field Methods, 36(4), 279-293. [Link](https://doi.org/10.1177/1525822X231225907)
 
 <hr>
 
-(6) Stier, S., Breuer, J., Siegers, P., & Thorson, K. (2020). Integrating Survey Data and Digital Trace Data: Key Issues in Developing an Emerging Field. *Social Science Computer Review*, *38*(5), 503--516. [Link](https://doi.org/10.1177/0894439319843669)
+(6) Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). Meaningful measures of human society in the twenty-first century. *Nature*, *595*(7866), 189--196. [Link](https://doi.org/10.1038/s41586-021-03660-7)
+
+<hr>
+
+(7) Stier, S., Breuer, J., Siegers, P., & Thorson, K. (2020). Integrating Survey Data and Digital Trace Data: Key Issues in Developing an Emerging Field. *Social Science Computer Review*, *38*(5), 503--516. [Link](https://doi.org/10.1177/0894439319843669)
 
 <hr>

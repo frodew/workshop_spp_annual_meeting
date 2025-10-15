@@ -10,7 +10,7 @@ This workshop introduces data donation as a user-centric method for collecting d
 - Data donation from the participant perspective (requesting, downloading, and donating data)
 - Data donation from the researcher perspective (designing studies, extracting data, and addressing methodological challenges)
 
-Workshop led by Frieder Rodewald (University of Mannheim & Institute for Employment Research) as part of the DFG project "Integrating Data Donations in Survey Infrastructure".
+Workshop led by Frieder Rodewald (University of Mannheim & Institute for Employment Research) and Sebastian Prechsl (Institute for Employment Research & LMU Munich) as part of the DFG project "Integrating Data Donations in Survey Infrastructure".
 
 ## Technical Setup
 

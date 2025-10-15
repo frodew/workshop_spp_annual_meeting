@@ -7,6 +7,9 @@ author:
     - name: Frieder Rodewald
       orcid: 0009-0009-6859-5761
       affiliations: University of Mannheim & Institute for Employment Research
+    - name: Sebastian Prechsl
+      orcid: 0000-0001-9033-7317
+      affiliations: Institute for Employment Research & LMU Munich
 date: 10-22-2025
 date-format: long
 bibliography: references.bib
@@ -15,7 +18,7 @@ execute:
   echo: true
 format:
   unima-quarto-revealjs:
-    footer: Data Donation Workshop - Frieder Rodewald
+    footer: Data Donation Workshop - Frieder & Sebastian
     ## As one HTML-file
     embed-resources: true
     ## (Code) Format Options
@@ -108,13 +111,24 @@ Please raise your hand 🤚 if you ...
 
 More info: [github.com/frodew](https://github.com/frodew) & [frieder-rodewald.de](https://frieder-rodewald.de/)
 
-A huge thanks to [Valerie Hase](https://valerie-hase.com), for conceptualizing a previous data donation workshop at CompText in Vienna.
+
+## About me: Sebastian Prechsl
+
+...
 
 ---
 
 👉 part of the SPP project [Integrating Data Donations in Survey Infrastructure](https://data-donation-science.de)
 
 ![Our Team](images/spp_team.png)
+
+---
+
+::: {.v-center}
+
+A huge thanks to [Valerie Hase](https://valerie-hase.com), for conceptualizing a previous data donation workshop at CompText in Vienna.
+
+:::
 
 ## What is the goal of this workshop?
 
