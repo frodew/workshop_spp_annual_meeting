@@ -103,7 +103,7 @@ Please raise your hand 🤚 if you ...
 
 🎓 PhD, University of Mannheim & Institute for Employment Research
 
-🧐 Research interests: "I study what people do online."
+🧐 Research interests: \"I study what people do online.\"
 
 \
 
@@ -112,7 +112,9 @@ More info: [github.com/frodew](https://github.com/frodew) & [frieder-rodewald.de
 
 ## About me: Sebastian Prechsl
 
-...
+🎓 Postdoc at Institute for Employment Research & LMU
+
+🧐 Research interests: Social inequalities (in the labor market), potentials of digital trace data for labor market research
 
 ---
 
@@ -181,9 +183,7 @@ Depending on the data collection method... [[@ohme_etal2024]]{.cite}:
 🤔 How many minutes a day do you use the internet to consume news?
 
 - „Internet"?
-
 - „News"?
-
 - „How many minutes"?
 :::
 
