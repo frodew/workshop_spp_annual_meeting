@@ -46,6 +46,12 @@ subtitle: "Using data donation to understand digital behavior."
 -   [Slides - HTML](03_data_donation_researcher_perspective.html)
 -   [Slides - PDF](pdf/03_data_donation_researcher_perspective.pdf)
 
+<hr>
+
+**All parts combined:**
+
+-   [Slides - HTML](presentation_slides_combined.html)
+-   [Slides - PDF](pdf/presentation_slides_combined.pdf)
 
 ## Further tutorials
 

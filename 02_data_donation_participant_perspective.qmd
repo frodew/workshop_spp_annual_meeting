@@ -83,10 +83,10 @@ The participant's perspective.
 
 ## Changes in legal contexts ⚖️ {.smaller}
 
--   EU secures right to own data in Art. 15 of the [General Data Protection Regulation](https://gdpr-info.eu/)
-    -   "The data subject shall have [...] access to the personal data" (§ Art. 15, 1)
-    -   "The controller shall provide a copy of the personal data" (§ Art. 15, 3)
--   According to § Art. 20, users must receive their data "in a structured, commonly used and machine-readable format" (§ Art. 20, 1)
+- EU secures right to own data in Art. 15 of the [General Data Protection Regulation](https://gdpr-info.eu/)
+  - "The data subject shall have [...] access to the personal data" (§ Art. 15, 1)
+  - "The controller shall provide a copy of the personal data" (§ Art. 15, 3)
+- According to § Art. 20, users must receive their data "in a structured, commonly used and machine-readable format" (§ Art. 20, 1)
 
 👉 **Solution:** Platforms offer data download packages (DDPs), which users can request and download to inspect data.
 
@@ -95,16 +95,14 @@ The participant's perspective.
 ---
 
 ::: {.v-center}
-
 🤔 Please raise your hand ✋
 
 (Before a week ago...) Who has ever tried to request their data from an online platform?
-
 :::
 
 ## What are data donation studies?
 
-💡 **Definition:** Data donation studies are a user-centric method for collecting digital traces:
+💡 **Definition:** *Data donation studies are a user-centric method for collecting digital traces.*
 
 - Users have the right to request, access, and download data that platforms collect about them.
 - They can make their *data download packages (DDPs)* available to science, often in the context of web surveys.
@@ -166,7 +164,7 @@ Compared to **APIs** [[@ohme_etal2024]]{.cite}...
 
 Different degrees in standardization for data requests [[@hase_etal2024]]{.cite}...
 
-- Verification procedure
+- Verification procedure (password requirements)
 - Specification of data (metrics, observation period)
 - Notification on provision of DDP
 - Duration of DDP availability
@@ -190,23 +188,19 @@ Different degrees in standardization for data requests [[@hase_etal2024]]{.cite}
 ---
 
 ::: {.v-center}
-
 **📢 Task: Try it yourself.**
 
 You might have already requested and downloaded your data in preparation for today.
 \
 \
 Did you encounter any difficulties in sharing your data?
-
 :::
 
 
 ---
 
 ::: {.v-center}
-
 🤔 **Questions?**
-
 :::
 
 ## References {.smallest}

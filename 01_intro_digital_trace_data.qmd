@@ -80,7 +80,6 @@ format:
 ## Our Agenda
 
 ::: {.v-center}
-
 1️⃣ What is digital trace data?
 \
 \
@@ -88,7 +87,6 @@ format:
 \
 \
 3️⃣ What is data donation? - The researcher's perspective.
-
 :::
 
 ## Who are you?
@@ -125,9 +123,7 @@ More info: [github.com/frodew](https://github.com/frodew) & [frieder-rodewald.de
 ---
 
 ::: {.v-center}
-
 A huge thanks to [Valerie Hase](https://valerie-hase.com), for conceptualizing a previous data donation workshop at CompText in Vienna.
-
 :::
 
 ## What is the goal of this workshop?
@@ -143,113 +139,109 @@ A huge thanks to [Valerie Hase](https://valerie-hase.com), for conceptualizing a
 ---
 
 ::: {.v-center}
-
 🤔 Which examples for digital trace data you know?
-
 :::
 
 ## What is digital trace data?
 
-💡 **Definition:** *The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena*
+💡 **Definition:** *The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena.*
 
--   e.g., tweets, likes, shares on social media
--   e.g., geo data (locations, movements)
--   e.g., digital payments
--   e.g., Spotify playlists
+This might include:
+
+- Tweets, likes, shares on social media
+- Geo data (locations, movements)
+- Digital payments
+- Spotify playlists
 
 ## Where can we find/collect digital trace data?
 
--   Apps (e.g., running apps)
--   Social media platforms (e.g., Instagram)
--   Payment systems (e.g., Paypal)
--   Wearable devices (e.g., smart watch)
+- Apps (e.g., running apps)
+- Social media platforms (e.g., Instagram)
+- Payment systems (e.g., Paypal)
+- Wearable devices (e.g., smart watch)
 
-## Which types of data does this include?
-
+::: {.notes}
 Depending on the data collection method... [[@ohme_etal2024]]{.cite}:
 
-- often fine-grained (e.g., time-stamped)
-- often longitudinal (e.g., over years, within-individual change)
-- often less reactive (e.g., less concerns about social desirability)
+- Often fine-grained (e.g., time-stamped)
+- Often longitudinal (e.g., over years, within-individual change)
+- Often less reactive (e.g., less concerns about social desirability)
+:::
 
-## Which (latent) constructs can we measure? {.smaller}
+## Which (latent) constructs can we measure?
 
--   **Internet use** [[@parry_etal2021]]{.cite} related to ...
-    -   well-being [[@ohme_etal2024]]{.cite}
-    -   voting [[@bach_etal2021]]{.cite}
--   **News engagement** [[@reiss2023]]{.cite} related to ...
-    -   news diversity [[@jurgens_stark2022]]{.cite}
-    -   public opinion formation [[@yan_etal2022]]{.cite}
--   **Movements** related to ...
-    -   Mobility during pandemics [[@li_etal2021]]{.cite}
-    -   Social networks [[@sepulvado_etal2022]]{.cite}
+- **Internet use** [[@parry_etal2021]]{.cite} related to ...
+  - Well-being [[@ohme_etal2024]]{.cite} or voting [[@bach_etal2021]]{.cite}
+- **News engagement** [[@reiss2023]]{.cite} related to ...
+  - News diversity [[@jurgens_stark2022]]{.cite} or public opinion formation [[@yan_etal2022]]{.cite}
+- **Movements** related to ...
+  - Mobility during pandemics [[@li_etal2021]]{.cite} or social networks [[@sepulvado_etal2022]]{.cite}
 
-## Why are digital traces becoming more popular?
-
-::: {.v-center}
-
+::: {.notes}
 🤔 How many minutes a day do you use the internet to consume news?
 
-:::
+- „Internet"?
 
----
+- „News"?
 
-- „internet"?
-
-::: {.fragment}
-- „news"?
-:::
-
-::: {.fragment}
-- „how many minutes"?
+- „How many minutes"?
 :::
 
 ## Why are digital traces becoming more popular?
 
--   **Problems with self-reported data** (e.g., via survey)
-    -   Self-reported data subject to specific bias [[@scharkow2016; @parry_etal2021]]{.cite}
-    -   Response rates in surveys are declining [[@luiten_etal2020]]{.cite}
--   **Availabillity**
-    -   cheap (e.g., via APIs)
-    -   large data sets ("big data")
+- **Problems with self-reported data** (e.g., via survey)
+  - Self-reported data subject to specific bias [[@scharkow2016; @parry_etal2021]]{.cite}
+  - Response rates in surveys are declining [[@luiten_etal2020]]{.cite}
+- **Availabillity**
+  - Cheap (e.g., via APIs)
+  - Large data sets ("big data")
 
 ---
 
+::: {.v-center}
 ⚠️ **Be careful**: These "advantages" are often claimed, but **not** empirically proven.
 
-👉 Digital traces are neither necessarily less biased, nor cheaper, or larger.
+👉 Digital traces are neither necessarily less biased, cheaper, or larger.
+:::
 
 ## (Dis-)advantages of digital trace data
 
--   ✅ More fine-grained, often longitudinal measures due to timestamps
--   ✅ Partly measurement of new variables (e.g., algorithmic inference)
--   ❌ Bias due to errors in representation and measurement
--   ❌ Implementation can be expensive and cumbersome
--   ❌ More data does not mean better data!
+- ✅ More fine-grained, often longitudinal measures due to timestamps
+- ✅ Partly measurement of new variables (e.g., algorithmic inference)
+- ❌ Bias due to errors in representation and measurement
+- ❌ Implementation can be expensive and cumbersome
+- ❌ More data does not mean better data!
 
 # How can we collect digital traces?
 
 ## Platform- and user-centric methods
 
--   **Platform-centric** (based on platform cooperation)
-    -   API [[@junger2021]]{.cite}
-    -   Cooperation with platforms [[@wagner2023]]{.cite}
--   **User-centric** (based on user cooperation and informed consent) or "follow the user" approaches [[@caliandro2024]]{.cite}
-    -   Data donation [[@carriere_etal2025]]{.cite}
-    -   Linkage [[@sloan_etal2020]]{.cite}
-    -   Sensors [[@struminskaya_etal2021]]{.cite}
-    -   Tracking [[@christner_etal2022]]{.cite}
+- **Platform-centric** (based on platform cooperation)
+  - API [[@junger2021]]{.cite}
+  - Cooperation with platforms [[@wagner2023]]{.cite}
+- **User-centric** (based on user cooperation and informed consent) or "follow the user" approaches [[@caliandro2024]]{.cite}
+  - Data donation [[@carriere_etal2025]]{.cite}
+  - Linkage [[@sloan_etal2020]]{.cite}
+  - Sensors [[@struminskaya_etal2021]]{.cite}
+  - Tracking [[@christner_etal2022]]{.cite}
 
 ::: {.notes}
-
--   Restrictions of platform-centric methods
-    -   Discontinuation of APIs
-    -   Concerns about bias
--   User-centric methods become more popular, given ...
-    -   Changes in law that enable such studies (GDPR, DSA)
-    -   Presumably (!) less biased data
-    -   Ethical considerations (informed consent)
-
+- Restrictions of platform-centric methods
+  - Discontinuation of APIs
+  - Concerns about bias
+- User-centric methods become more popular, given ...
+  - Changes in law that enable such studies (GDPR, DSA)
+  - Presumably (!) less biased data
+  - Ethical considerations (informed consent)
 :::
 
-## References {.smallest}
+---
+
+::: {.v-center}
+🤔 **Questions?**
+:::
+
+## References {style="font-size: 0.38em;"}
+
+::: {#refs style="column-count: 2; column-gap: 2em;"}
+:::

@@ -84,18 +84,16 @@ The researcher's perspective.
 ---
 
 ::: {.v-center}
-
 🤔 What are methodological decisions researchers have to take in data donation studies?
-
 :::
 
 ---
 
 🔑 Key decisions:
 
--   Which theoretical questions do I want to answer?
--   How do I operationalize key variables via my data donation tool?
--   How do I integrate the tool in surveys & recruit participants?
+- Which theoretical questions do I want to answer?
+- How do I operationalize key variables via my data donation tool?
+- How do I integrate the tool in surveys & recruit participants?
 
 ---
 
@@ -122,28 +120,26 @@ The researcher's perspective.
 
 ## Decisions we took {.smaller}
 
-:::: {.columns}
-
-::: {.column width="30%"}
-![](images/preprint_cover.png)
+:::: {.columns style="background: none;"}
+::: {.column width="33%"}
+![](images/preprint_cover.png){width="96%" fig-align="center"}
 :::
-
 ::: {.column width="60%"}
-
 - **Goal**: Increase participation in the context of labour market studies and understand non-response bias
-- **Issue**: Low response rates [e.g., [[@hase_haim2024; @keusch_etal2024]]{.cite}]
+- **Issue**: Low response rates (e.g., [[@hase_haim2024; @keusch_etal2024]]{.cite})
     - Behavioral intentions as "willingness to donate" high (79-52% of survey respondents)
     - Actual behavior as "participation in data donation" low (37-12% of survey respondents)
     - Well known intention-behavior gap; where 🤑 seems to help [[@kmetty_etal2025]]{.cite}
 - **Sample**: A non-probability panel (online access panel)
-
 :::
-
 ::::
 
 ## {{< fa square-poll-horizontal >}} Survey
 
-- Survey on platform usage (YouTube, Instagram, and LinkedIn), labor market characteristics and common indicators for non-participation
+- Survey concerning...
+  - online platform usage (YouTube, Instagram, and LinkedIn),
+  - labor market characteristics,
+  - and common indicators for non-participation.
 
 # {{< fa file-arrow-down >}} Data request & download
 
@@ -161,14 +157,13 @@ The researcher's perspective.
 ---
 
 ::: {.v-center}
-
 **📢 Task: Try it yourself.**
-
+\
+\
 Take a look at your downloaded data. What do you see; anything caught your eye?
 \
 \
 Feel free to work in groups of 2-3 people for 5 minutes.
-
 :::
 
 ---
@@ -180,7 +175,6 @@ Different degrees in standardization for DDP content [[@hase_etal2024]]{.cite}..
   - Measurements?
 
 - Completeness & scope
-
   - Missing data?
   - Limited time frames?
   - Language sensitive?
@@ -278,9 +272,7 @@ def extract_subscriptions(subscriptions_csv):
 ---
 
 ::: {.v-center}
-
-Thank you for participating; happy to talk with you about data donation (and anything else) throughout the next days.
-
+🙃 Thank you for participating; happy to talk with you about data donation (and anything else) throughout the next days.
 :::
 
 ## EXTRA: Can I extend the data?
@@ -301,9 +293,7 @@ For example ...
 ---
 
 ::: {.v-center}
-
 🤔 What do you think: Which participant characteristics may correlate with non-response or non-compliance?
-
 :::
 
 # EXTRA: What's next for data donation studies?
@@ -328,9 +318,10 @@ For example ...
 ---
 
 ::: {.v-center}
-
 🤔 **Questions?**
-
 :::
 
-## References {.smallest}
+## References {style="font-size: 0.50em;"}
+
+::: {#refs style="column-count: 2; column-gap: 2em;"}
+:::

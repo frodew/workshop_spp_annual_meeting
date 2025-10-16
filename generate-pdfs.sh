@@ -3,6 +3,13 @@
 # Script to generate PDFs from rendered HTML presentations using decktape
 # This script is automatically called after quarto render
 
+# Skip PDF generation during quarto preview
+if [ -z "$QUARTO_PROJECT_RENDER_ALL" ]; then
+    echo "Skipping PDF generation (running in preview mode)"
+    exit 0
+fi
+
+echo ""
 echo "======================================"
 echo "Generating PDFs from presentations..."
 echo "======================================"
@@ -16,6 +23,12 @@ presentations=(
     "02_data_donation_participant_perspective"
     "03_data_donation_researcher_perspective"
 )
+
+# Add combined presentation if it exists
+if [ -f "presentation_slides_combined.qmd" ]; then
+    presentations+=("presentation_slides_combined")
+    echo "Found combined qmd-presentation - will generate PDF"
+fi
 
 # Check if HTML files exist
 if [ ! -f "docs/index.html" ]; then

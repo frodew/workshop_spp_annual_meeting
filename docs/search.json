@@ -11,7 +11,7 @@
     "href": "02_data_donation_participant_perspective.html#what-are-data-donation-studies",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "What are data donation studies?",
-    "text": "What are data donation studies?\n💡 Definition: Data donation studies are a user-centric method for collecting digital traces:\n\nUsers have the right to request, access, and download data that platforms collect about them.\nThey can make their data download packages (DDPs) available to science, often in the context of web surveys.\nResearchers use CSS methods to filter, anonymize, and aggregate this data locally on participants’ devices.\nParticipants can inspect/delete their data before any data is transferred."
+    "text": "What are data donation studies?\n💡 Definition: Data donation studies are a user-centric method for collecting digital traces.\n\nUsers have the right to request, access, and download data that platforms collect about them.\nThey can make their data download packages (DDPs) available to science, often in the context of web surveys.\nResearchers use CSS methods to filter, anonymize, and aggregate this data locally on participants’ devices.\nParticipants can inspect/delete their data before any data is transferred."
   },
   {
     "objectID": "02_data_donation_participant_perspective.html#which-types-of-data-do-ddps-contain",
@@ -39,7 +39,7 @@
     "href": "02_data_donation_participant_perspective.html#request-download-data",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": " Request & Download Data",
-    "text": "Request & Download Data\nDifferent degrees in standardization for data requests (Hase et al. 2024)…\n\nVerification procedure\nSpecification of data (metrics, observation period)\nNotification on provision of DDP\nDuration of DDP availability"
+    "text": "Request & Download Data\nDifferent degrees in standardization for data requests (Hase et al. 2024)…\n\nVerification procedure (password requirements)\nSpecification of data (metrics, observation period)\nNotification on provision of DDP\nDuration of DDP availability"
   },
   {
     "objectID": "02_data_donation_participant_perspective.html#inspect-data",
@@ -81,7 +81,7 @@
     "href": "index.html#workshop-materials",
     "title": "What do people do online?",
     "section": "Workshop materials",
-    "text": "Workshop materials\nPart 1️⃣: What is digital trace data?\n\nSlides - HTML\nSlides - PDF\n\nPart 2️⃣: What is data donation? - The participant’s perspective.\n\nSlides - HTML\nSlides - PDF\n\nPart 3️⃣: What is data donation? - The researcher’s perspective.\n\nSlides - HTML\nSlides - PDF"
+    "text": "Workshop materials\nPart 1️⃣: What is digital trace data?\n\nSlides - HTML\nSlides - PDF\n\nPart 2️⃣: What is data donation? - The participant’s perspective.\n\nSlides - HTML\nSlides - PDF\n\nPart 3️⃣: What is data donation? - The researcher’s perspective.\n\nSlides - HTML\nSlides - PDF\n\n\nAll parts combined:\n\nSlides - HTML\nSlides - PDF"
   },
   {
     "objectID": "index.html#further-tutorials",
@@ -102,14 +102,14 @@
     "href": "03_data_donation_researcher_perspective.html#decisions-we-took",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Decisions we took",
-    "text": "Decisions we took\n\n\n\n\n\nGoal: Increase participation in the context of labour market studies and understand non-response bias\nIssue: Low response rates [e.g., (Hase and Haim 2024; Keusch et al. 2024)]\n\nBehavioral intentions as “willingness to donate” high (79-52% of survey respondents)\nActual behavior as “participation in data donation” low (37-12% of survey respondents)\nWell known intention-behavior gap; where 🤑 seems to help (Kmetty et al. 2025)\n\nSample: A non-probability panel (online access panel)"
+    "text": "Decisions we took\n\n\n\n\n\n\n\n\n\nGoal: Increase participation in the context of labour market studies and understand non-response bias\nIssue: Low response rates (e.g., (Hase and Haim 2024; Keusch et al. 2024))\n\nBehavioral intentions as “willingness to donate” high (79-52% of survey respondents)\nActual behavior as “participation in data donation” low (37-12% of survey respondents)\nWell known intention-behavior gap; where 🤑 seems to help (Kmetty et al. 2025)\n\nSample: A non-probability panel (online access panel)"
   },
   {
     "objectID": "03_data_donation_researcher_perspective.html#survey",
     "href": "03_data_donation_researcher_perspective.html#survey",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": " Survey",
-    "text": "Survey\n\nSurvey on platform usage (YouTube, Instagram, and LinkedIn), labor market characteristics and common indicators for non-participation"
+    "text": "Survey\n\nSurvey concerning…\n\nonline platform usage (YouTube, Instagram, and LinkedIn),\nlabor market characteristics,\nand common indicators for non-participation."
   },
   {
     "objectID": "03_data_donation_researcher_perspective.html#strategy-to-make-the-extraction-work",
@@ -179,7 +179,217 @@
     "href": "03_data_donation_researcher_perspective.html#references",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "References",
-    "text": "References\n\n\n\n\nHase, Valerie, Jef Ausloos, Laura Boeschoten, Nico Pfiffner, Heleen Janssen, Theo Araujo, Thijs Carrière, et al. 2024. “Fulfilling Data Access Obligations: How Could (and Should) Platforms Facilitate Data Donation Studies?” Internet Policy Review 13 (3). https://doi.org/10.14763/2024.3.1793.\n\n\nHase, Valerie, and Mario Haim. 2024. “Can We Get Rid of Bias? Mitigating Systematic Error in Data Donation Studies Through Survey Design Strategies.” Computational Communication Research 6 (2): 1. https://doi.org/10.5117/CCR2024.2.2.HASE.\n\n\nKeusch, Florian, Paulina K. Pankowska, Alexandru Cernat, and Ruben L. Bach. 2024. “Do You Have Two Minutes to Talk about Your Data? Willingness to Participate and Nonparticipation Bias in Facebook Data Donation.” Field Methods 36 (4): 279–93. https://doi.org/10.1177/1525822X231225907.\n\n\nKmetty, Zoltán, Ádám Stefkovics, Júlia Számely, Dongning Deng, Anikó Kellner, Edit Pauló, Elisa Omodei, and Júlia Koltai. 2025. “Determinants of Willingness to Donate Data from Social Media Platforms.” Information, Communication & Society 28 (7): 1324–49. https://doi.org/10.1080/1369118X.2024.2340995.\n\n\nSeiling, Lukas, Jakob Ohme, and Claes De Vreese. 2025. “Wird Europa Den DSA in Verhandlungen Mit Trump Opfern?” Tagesspiegel, March.\n\n\nThorson, Kjerstin, Kelley Cotter, Mel Medeiros, and Chankyung Pak. 2021. “Algorithmic Inference, Political Interest, and Exposure to News and Politics on Facebook.” Information, Communication & Society 24 (2): 183–200. https://doi.org/10.1080/1369118X.2019.1642934.\n\n\nWedel, Lion, Jakob Ohme, and Theo Araujo. 2024. “Augmenting Data Download Packages – Integrating Data Donations, Video Metadata, and the Multimodal Nature of Audio-visual Content.” Methods&#44; Data&#44; Analyses (Online First), October, 32 Pages. https://doi.org/10.12758/MDA.2024.08.\n\n\nWojcieszak, Magdalena, Ericka Menchen-Trevino, Bernhard Clemm Von Hohenberg, Sjifra De Leeuw, João Gonçalves, Sam Davidson, and Alexandre Gonçalves. 2024. “Non-News Websites Expose People to More Political Content Than News Websites: Evidence from Browsing Data in Three Countries.” Political Communication 41 (1): 129–51. https://doi.org/10.1080/10584609.2023.2238641."
+    "text": "References\n\n\nHase, Valerie, Jef Ausloos, Laura Boeschoten, Nico Pfiffner, Heleen Janssen, Theo Araujo, Thijs Carrière, et al. 2024. “Fulfilling Data Access Obligations: How Could (and Should) Platforms Facilitate Data Donation Studies?” Internet Policy Review 13 (3). https://doi.org/10.14763/2024.3.1793.\n\n\nHase, Valerie, and Mario Haim. 2024. “Can We Get Rid of Bias? Mitigating Systematic Error in Data Donation Studies Through Survey Design Strategies.” Computational Communication Research 6 (2): 1. https://doi.org/10.5117/CCR2024.2.2.HASE.\n\n\nKeusch, Florian, Paulina K. Pankowska, Alexandru Cernat, and Ruben L. Bach. 2024. “Do You Have Two Minutes to Talk about Your Data? Willingness to Participate and Nonparticipation Bias in Facebook Data Donation.” Field Methods 36 (4): 279–93. https://doi.org/10.1177/1525822X231225907.\n\n\nKmetty, Zoltán, Ádám Stefkovics, Júlia Számely, Dongning Deng, Anikó Kellner, Edit Pauló, Elisa Omodei, and Júlia Koltai. 2025. “Determinants of Willingness to Donate Data from Social Media Platforms.” Information, Communication & Society 28 (7): 1324–49. https://doi.org/10.1080/1369118X.2024.2340995.\n\n\nSeiling, Lukas, Jakob Ohme, and Claes De Vreese. 2025. “Wird Europa Den DSA in Verhandlungen Mit Trump Opfern?” Tagesspiegel, March.\n\n\nThorson, Kjerstin, Kelley Cotter, Mel Medeiros, and Chankyung Pak. 2021. “Algorithmic Inference, Political Interest, and Exposure to News and Politics on Facebook.” Information, Communication & Society 24 (2): 183–200. https://doi.org/10.1080/1369118X.2019.1642934.\n\n\nWedel, Lion, Jakob Ohme, and Theo Araujo. 2024. “Augmenting Data Download Packages – Integrating Data Donations, Video Metadata, and the Multimodal Nature of Audio-visual Content.” Methods&#44; Data&#44; Analyses (Online First), October, 32 Pages. https://doi.org/10.12758/MDA.2024.08.\n\n\nWojcieszak, Magdalena, Ericka Menchen-Trevino, Bernhard Clemm Von Hohenberg, Sjifra De Leeuw, João Gonçalves, Sam Davidson, and Alexandre Gonçalves. 2024. “Non-News Websites Expose People to More Political Content Than News Websites: Evidence from Browsing Data in Three Countries.” Political Communication 41 (1): 129–51. https://doi.org/10.1080/10584609.2023.2238641."
+  },
+  {
+    "objectID": "presentation_slides_combined.html#our-agenda",
+    "href": "presentation_slides_combined.html#our-agenda",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Our Agenda",
+    "text": "Our Agenda\n\n1️⃣ What is digital trace data?\n\n2️⃣ What is data donation? - The participant’s perspective.\n\n3️⃣ What is data donation? - The researcher’s perspective."
+  },
+  {
+    "objectID": "presentation_slides_combined.html#who-are-you",
+    "href": "presentation_slides_combined.html#who-are-you",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Who are you?",
+    "text": "Who are you?\nPlease raise your hand 🤚 if you …\n\nare familiar with the term digital trace data\nhave worked with APIs\nhave worked with data donation\nhave worked with automated content analysis\nregularly use programming languages (e.g., R, Python)"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#about-me-frieder-rodewald",
+    "href": "presentation_slides_combined.html#about-me-frieder-rodewald",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "About me: Frieder Rodewald",
+    "text": "About me: Frieder Rodewald\n🎓 PhD, University of Mannheim & Institute for Employment Research\n🧐 Research interests: “I study what people do online.”\n\n\nMore info: github.com/frodew & frieder-rodewald.de"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#about-me-sebastian-prechsl",
+    "href": "presentation_slides_combined.html#about-me-sebastian-prechsl",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "About me: Sebastian Prechsl",
+    "text": "About me: Sebastian Prechsl\n…"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#what-is-the-goal-of-this-workshop",
+    "href": "presentation_slides_combined.html#what-is-the-goal-of-this-workshop",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "What is the goal of this workshop?",
+    "text": "What is the goal of this workshop?\n\n✅ Understanding digital data traces as a type of data\n✅ Understanding data donation as a method of data access\n✅ Working through key steps of data donation methods (participant & researcher view)\n❓ Discussing when (not) to use data donation studies\n❌ Detailed implementation (e.g., server set-up, coding data extraction scripts)"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#what-is-digital-trace-data-1",
+    "href": "presentation_slides_combined.html#what-is-digital-trace-data-1",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "What is digital trace data?",
+    "text": "What is digital trace data?\n💡 Definition: The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena.\nThis might include:\n\nTweets, likes, shares on social media\nGeo data (locations, movements)\nDigital payments\nSpotify playlists"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#where-can-we-findcollect-digital-trace-data",
+    "href": "presentation_slides_combined.html#where-can-we-findcollect-digital-trace-data",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Where can we find/collect digital trace data?",
+    "text": "Where can we find/collect digital trace data?\n\nApps (e.g., running apps)\nSocial media platforms (e.g., Instagram)\nPayment systems (e.g., Paypal)\nWearable devices (e.g., smart watch)\n\n\nDepending on the data collection method… (Ohme et al. 2024):\n\nOften fine-grained (e.g., time-stamped)\nOften longitudinal (e.g., over years, within-individual change)\nOften less reactive (e.g., less concerns about social desirability)"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#which-latent-constructs-can-we-measure",
+    "href": "presentation_slides_combined.html#which-latent-constructs-can-we-measure",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Which (latent) constructs can we measure?",
+    "text": "Which (latent) constructs can we measure?\n\nInternet use (Parry et al. 2021) related to …\n\nWell-being (Ohme et al. 2024) or voting (Bach et al. 2021)\n\nNews engagement (Reiss 2023) related to …\n\nNews diversity (Jürgens and Stark 2022) or public opinion formation (Yan, Schroeder, and Stier 2022)\n\nMovements related to …\n\nMobility during pandemics (Li et al. 2021) or social networks (Sepulvado et al. 2022)\n\n\n\n🤔 How many minutes a day do you use the internet to consume news?\n\n„Internet”?\n„News”?\n„How many minutes”?"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#why-are-digital-traces-becoming-more-popular",
+    "href": "presentation_slides_combined.html#why-are-digital-traces-becoming-more-popular",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Why are digital traces becoming more popular?",
+    "text": "Why are digital traces becoming more popular?\n\nProblems with self-reported data (e.g., via survey)\n\nSelf-reported data subject to specific bias (Scharkow 2016; Parry et al. 2021)\nResponse rates in surveys are declining (Luiten, Hox, and de Leeuw 2020)\n\nAvailabillity\n\nCheap (e.g., via APIs)\nLarge data sets (“big data”)"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#dis-advantages-of-digital-trace-data",
+    "href": "presentation_slides_combined.html#dis-advantages-of-digital-trace-data",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "(Dis-)advantages of digital trace data",
+    "text": "(Dis-)advantages of digital trace data\n\n✅ More fine-grained, often longitudinal measures due to timestamps\n✅ Partly measurement of new variables (e.g., algorithmic inference)\n❌ Bias due to errors in representation and measurement\n❌ Implementation can be expensive and cumbersome\n❌ More data does not mean better data!"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#platform--and-user-centric-methods",
+    "href": "presentation_slides_combined.html#platform--and-user-centric-methods",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Platform- and user-centric methods",
+    "text": "Platform- and user-centric methods\n\nPlatform-centric (based on platform cooperation)\n\nAPI (Jünger 2021)\nCooperation with platforms (Wagner 2023)\n\nUser-centric (based on user cooperation and informed consent) or “follow the user” approaches (Caliandro 2024)\n\nData donation (Carrière et al. 2025)\nLinkage (Sloan et al. 2020)\nSensors (Struminskaya et al. 2021)\nTracking (Christner et al. 2022)\n\n\n\n\nRestrictions of platform-centric methods\n\nDiscontinuation of APIs\nConcerns about bias\n\nUser-centric methods become more popular, given …\n\nChanges in law that enable such studies (GDPR, DSA)\nPresumably (!) less biased data\nEthical considerations (informed consent)"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#changes-in-legal-contexts",
+    "href": "presentation_slides_combined.html#changes-in-legal-contexts",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Changes in legal contexts ⚖️",
+    "text": "Changes in legal contexts ⚖️\n\nEU secures right to own data in Art. 15 of the General Data Protection Regulation\n\n“The data subject shall have […] access to the personal data” (§ Art. 15, 1)\n“The controller shall provide a copy of the personal data” (§ Art. 15, 3)\n\nAccording to § Art. 20, users must receive their data “in a structured, commonly used and machine-readable format” (§ Art. 20, 1)\n\n👉 Solution: Platforms offer data download packages (DDPs), which users can request and download to inspect data.\n👉 Consequence: Researchers uses DDPs as part of user-centric data donation studies."
+  },
+  {
+    "objectID": "presentation_slides_combined.html#what-are-data-donation-studies",
+    "href": "presentation_slides_combined.html#what-are-data-donation-studies",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "What are data donation studies?",
+    "text": "What are data donation studies?\n💡 Definition: Data donation studies are a user-centric method for collecting digital traces.\n\nUsers have the right to request, access, and download data that platforms collect about them.\nThey can make their data download packages (DDPs) available to science, often in the context of web surveys.\nResearchers use CSS methods to filter, anonymize, and aggregate this data locally on participants’ devices.\nParticipants can inspect/delete their data before any data is transferred."
+  },
+  {
+    "objectID": "presentation_slides_combined.html#which-types-of-data-do-ddps-contain",
+    "href": "presentation_slides_combined.html#which-types-of-data-do-ddps-contain",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Which types of data do DDPs contain?",
+    "text": "Which types of data do DDPs contain?\nFor platforms like YouTube, Instagram, or LinkedIn, for example… (Hase et al. 2024)\n\nUser profiles (e.g., privacy settings)\nActivities (e.g., friends, likes, searches, exposure, analog movements)\nContent and context (e.g., ads watched, algorithmically inferred interests)"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#how-is-data-from-ddps-different",
+    "href": "presentation_slides_combined.html#how-is-data-from-ddps-different",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "How is data from DDPs different?",
+    "text": "How is data from DDPs different?\nCompared to APIs (Ohme et al. 2024)…\n\nControl & informed consent of users\nLongitudinal data without “rate limits”\nPartly additional measurements (e.g., exposure data; non-public data)\n\n👉 but can be burdensome for participants!"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#survey",
+    "href": "presentation_slides_combined.html#survey",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": " Survey",
+    "text": "Survey\n\nSurvey start page"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#request-download-data",
+    "href": "presentation_slides_combined.html#request-download-data",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": " Request & Download Data",
+    "text": "Request & Download Data\nDifferent degrees in standardization for data requests (Hase et al. 2024)…\n\nVerification procedure (password requirements)\nSpecification of data (metrics, observation period)\nNotification on provision of DDP\nDuration of DDP availability"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#inspect-data",
+    "href": "presentation_slides_combined.html#inspect-data",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": " Inspect Data",
+    "text": "Inspect Data\n\nData overview on data donation platform"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#decisions-we-took",
+    "href": "presentation_slides_combined.html#decisions-we-took",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Decisions we took",
+    "text": "Decisions we took\n\n\n\n\n\n\n\n\n\nGoal: Increase participation in the context of labour market studies and understand non-response bias\nIssue: Low response rates (e.g., (Hase and Haim 2024; Keusch et al. 2024))\n\nBehavioral intentions as “willingness to donate” high (79-52% of survey respondents)\nActual behavior as “participation in data donation” low (37-12% of survey respondents)\nWell known intention-behavior gap; where 🤑 seems to help (Kmetty et al. 2025)\n\nSample: A non-probability panel (online access panel)"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#survey-1",
+    "href": "presentation_slides_combined.html#survey-1",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": " Survey",
+    "text": "Survey\n\nSurvey concerning…\n\nonline platform usage (YouTube, Instagram, and LinkedIn),\nlabor market characteristics,\nand common indicators for non-participation."
+  },
+  {
+    "objectID": "presentation_slides_combined.html#strategy-to-make-the-extraction-work",
+    "href": "presentation_slides_combined.html#strategy-to-make-the-extraction-work",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "🛠️ Strategy to make the extraction work",
+    "text": "🛠️ Strategy to make the extraction work\n\nTake a look at the DDP; download it, best for multiple time periods and for different languages\nUnderstand the structure of the JSON or CSV.\nGet an example file running.\nWrite the code for the extraction script.\nTest your script, first locally and then in the wild.\nAdapt your script."
+  },
+  {
+    "objectID": "presentation_slides_combined.html#key-issues-hase_etal2024",
+    "href": "presentation_slides_combined.html#key-issues-hase_etal2024",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "🚨 Key issues (Hase et al. 2024)",
+    "text": "🚨 Key issues (Hase et al. 2024)\n\nMissing documentation by platforms (e.g., file structure)\nSudden changes in DDPs\nDifferences across languages & devices\nInsufficient in-tool classification (e.g., LLM integration)"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#example-extract-list-of-subscriptions",
+    "href": "presentation_slides_combined.html#example-extract-list-of-subscriptions",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Example: Extract list of subscriptions",
+    "text": "Example: Extract list of subscriptions\n\nsubscriptions.csv (before processing)"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#workshop-takeaways",
+    "href": "presentation_slides_combined.html#workshop-takeaways",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "📚 Workshop Takeaways",
+    "text": "📚 Workshop Takeaways\n\nThere are many ways in which researchers can learn about people’s online behavior through digital trace data\nPeople can request, download and finally donate their (anonymized) data form most online platforms\nData donation can be burdensome for participants\nData quailty heavily depends on the platform and what kind of data you extract from participants"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#extra-can-i-extend-the-data",
+    "href": "presentation_slides_combined.html#extra-can-i-extend-the-data",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "EXTRA: Can I extend the data?",
+    "text": "EXTRA: Can I extend the data?\n\nManual annotation by participants during data donation\nAPIs/scraping to extend collected data\nText-as-data methods for classification"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#extra-errors-in-representation",
+    "href": "presentation_slides_combined.html#extra-errors-in-representation",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "EXTRA: Errors in representation",
+    "text": "EXTRA: Errors in representation\nFor example …\n\nCoverage error: Who is (not) represented in the sampling frame? (e.g., social media users vs. YouTube users)\nSampling error: Who is (not) represented in the sample? (e.g., non-probability samples)\nNon-response error: Who does (not) want to participate in the data donation?\nCompliance error: Who is (not) able to participate in the data donation?"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#advancing-the-method",
+    "href": "presentation_slides_combined.html#advancing-the-method",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Advancing the method",
+    "text": "Advancing the method\n\n📸 Multimodal & cross-platform data (Wedel, Ohme, and Araujo 2024)\nIn-tool, local classification (e.g., local ML/LLMs?)\nWorkflow/UX-perspective"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#data-as-a-political-tool",
+    "href": "presentation_slides_combined.html#data-as-a-political-tool",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "Data as a political tool",
+    "text": "Data as a political tool\n\nPlatforms do (willingly?) not provide data according to the GDPR/DSA (Hase et al. 2024)\nThe EU has started to sanction platforms like X/TikTok\nDSA may become the subject of larger geo-political debates with the USA (Seiling, Ohme, and De Vreese 2025)"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#can-we-improve-apply-the-method",
+    "href": "presentation_slides_combined.html#can-we-improve-apply-the-method",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "🚀 Can we improve & apply the method?",
+    "text": "🚀 Can we improve & apply the method?\n\nCan the method actually be applied for empirical research? (few examples, like (Thorson et al. 2021; Wojcieszak et al. 2024))\nRequires interdisciplinary perspectives (e.g., addressing bias, integration in probability-based panels)"
+  },
+  {
+    "objectID": "presentation_slides_combined.html#references",
+    "href": "presentation_slides_combined.html#references",
+    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
+    "section": "References",
+    "text": "References\n\n\nBach, Ruben L., Christoph Kern, Ashley Amaya, Florian Keusch, Frauke Kreuter, Jan Hecht, and Jonathan Heinemann. 2021. “Predicting Voting Behavior Using Digital Trace Data.” Social Science Computer Review 39 (5): 862–83. https://doi.org/10.1177/0894439319882896.\n\n\nCaliandro, Alessandro. 2024. “Follow the User: Taking Advantage of Internet Users as Methodological Resources.” Convergence: The International Journal of Research into New Media Technologies, December, 13548565241307569. https://doi.org/10.1177/13548565241307569.\n\n\nCarrière, Thijs C., Laura Boeschoten, Bella Struminskaya, Heleen L. Janssen, Niek C. de Schipper, and Theo Araujo. 2025. “Best Practices for Studies Using Digital Data Donation.” Quality & Quantity 59 (1): 389–412. https://doi.org/10.1007/s11135-024-01983-x.\n\n\nChristner, Clara, Aleksandra Urman, Silke Adam, and Michaela Maier. 2022. “Automated Tracking Approaches for Studying Online Media Use: A Critical Review and Recommendations.” Communication Methods and Measures 16 (2): 79–95. https://doi.org/10.1080/19312458.2021.1907841.\n\n\nHase, Valerie, Jef Ausloos, Laura Boeschoten, Nico Pfiffner, Heleen Janssen, Theo Araujo, Thijs Carrière, et al. 2024. “Fulfilling Data Access Obligations: How Could (and Should) Platforms Facilitate Data Donation Studies?” Internet Policy Review 13 (3). https://doi.org/10.14763/2024.3.1793.\n\n\nHase, Valerie, and Mario Haim. 2024. “Can We Get Rid of Bias? Mitigating Systematic Error in Data Donation Studies Through Survey Design Strategies.” Computational Communication Research 6 (2): 1. https://doi.org/10.5117/CCR2024.2.2.HASE.\n\n\nJünger, Jakob. 2021. “A Brief History of APIs.” In Handbook of Computational Social Science, Volume 2, 1st ed., 17–32. London: Routledge.\n\n\nJürgens, Pascal, and Birgit Stark. 2022. “Mapping Exposure Diversity: The Divergent Effects of Algorithmic Curation on News Consumption.” Journal of Communication, March, jqac009. https://doi.org/10.1093/joc/jqac009.\n\n\nKeusch, Florian, Paulina K. Pankowska, Alexandru Cernat, and Ruben L. Bach. 2024. “Do You Have Two Minutes to Talk about Your Data? Willingness to Participate and Nonparticipation Bias in Facebook Data Donation.” Field Methods 36 (4): 279–93. https://doi.org/10.1177/1525822X231225907.\n\n\nKmetty, Zoltán, Ádám Stefkovics, Júlia Számely, Dongning Deng, Anikó Kellner, Edit Pauló, Elisa Omodei, and Júlia Koltai. 2025. “Determinants of Willingness to Donate Data from Social Media Platforms.” Information, Communication & Society 28 (7): 1324–49. https://doi.org/10.1080/1369118X.2024.2340995.\n\n\nLi, Xiao, Haowen Xu, Xiao Huang, Chenxiao Guo, Yuhao Kang, and Xinyue Ye. 2021. “Emerging Geo-Data Sources to Reveal Human Mobility Dynamics During COVID-19 Pandemic: Opportunities and Challenges.” Computational Urban Science 1 (1): 22. https://doi.org/10.1007/s43762-021-00022-x.\n\n\nLuiten, Annemieke, Joop Hox, and Edith de Leeuw. 2020. “Survey Nonresponse Trends and Fieldwork Effort in the 21st Century: Results of an International Study Across Countries and Surveys.” Journal of Official Statistics 36 (3): 469–87. https://doi.org/10.2478/jos-2020-0025.\n\n\nOhme, Jakob, Theo Araujo, Laura Boeschoten, Deen Freelon, Nilam Ram, Byron B. Reeves, and Thomas N. Robinson. 2024. “Digital Trace Data Collection for Social Media Effects Research: APIs, Data Donation, and (Screen) Tracking.” Communication Methods and Measures 18 (2): 124–41. https://doi.org/10.1080/19312458.2023.2181319.\n\n\nParry, Douglas A., Brittany I. Davidson, Craig J. R. Sewall, Jacob T. Fisher, Hannah Mieczkowski, and Daniel S. Quintana. 2021. “A Systematic Review and Meta-Analysis of Discrepancies Between Logged and Self-Reported Digital Media Use.” Nature Human Behaviour 5 (11): 1535–47. https://doi.org/10.1038/s41562-021-01117-5.\n\n\nReiss, Michael V. 2023. “Dissecting Non-Use of Online News – Systematic Evidence from Combining Tracking and Automated Text Classification.” Digital Journalism 11 (2): 363–83. https://doi.org/10.1080/21670811.2022.2105243.\n\n\nScharkow, Michael. 2016. “The Accuracy of Self-Reported Internet Use—A Validation Study Using Client Log Data.” Communication Methods and Measures 10 (1): 13–27. https://doi.org/10.1080/19312458.2015.1118446.\n\n\nSeiling, Lukas, Jakob Ohme, and Claes De Vreese. 2025. “Wird Europa Den DSA in Verhandlungen Mit Trump Opfern?” Tagesspiegel, March.\n\n\nSepulvado, Brandon, Michael Lee Wood, Ethan Fridmanski, Cheng Wang, Matthew J. Chandler, Omar Lizardo, and David Hachen. 2022. “Predicting Homophily and Social Network Connectivity From Dyadic Behavioral Similarity Trajectory Clusters.” Social Science Computer Review 40 (1): 195–211. https://doi.org/10.1177/0894439320923123.\n\n\nSloan, Luke, Curtis Jessop, Tarek Al Baghal, and Matthew Williams. 2020. “Linking Survey and Twitter Data: Informed Consent, Disclosure, Security, and Archiving.” Journal of Empirical Research on Human Research Ethics 15 (1-2): 63–76. https://doi.org/10.1177/1556264619853447.\n\n\nStruminskaya, Bella, Peter Lugtig, Vera Toepoel, Barry Schouten, Deirdre Giesen, and Ralph Dolmans. 2021. “Sharing Data Collected with Smartphone Sensors.” Public Opinion Quarterly 85 (S1): 423–62. https://doi.org/10.1093/poq/nfab025.\n\n\nThorson, Kjerstin, Kelley Cotter, Mel Medeiros, and Chankyung Pak. 2021. “Algorithmic Inference, Political Interest, and Exposure to News and Politics on Facebook.” Information, Communication & Society 24 (2): 183–200. https://doi.org/10.1080/1369118X.2019.1642934.\n\n\nWagner, Michael W. 2023. “Independence by Permission.” Science 381 (6656): 388–91. https://doi.org/10.1126/science.adi2430.\n\n\nWedel, Lion, Jakob Ohme, and Theo Araujo. 2024. “Augmenting Data Download Packages – Integrating Data Donations, Video Metadata, and the Multimodal Nature of Audio-visual Content.” Methods&#44; Data&#44; Analyses (Online First), October, 32 Pages. https://doi.org/10.12758/MDA.2024.08.\n\n\nWojcieszak, Magdalena, Ericka Menchen-Trevino, Bernhard Clemm Von Hohenberg, Sjifra De Leeuw, João Gonçalves, Sam Davidson, and Alexandre Gonçalves. 2024. “Non-News Websites Expose People to More Political Content Than News Websites: Evidence from Browsing Data in Three Countries.” Political Communication 41 (1): 129–51. https://doi.org/10.1080/10584609.2023.2238641.\n\n\nYan, Pu, Ralph Schroeder, and Sebastian Stier. 2022. “Is There a Link Between Climate Change Scepticism and Populism? An Analysis of Web Tracking and Survey Data from Europe and the US.” Information, Communication & Society 25 (10): 1400–1439. https://doi.org/10.1080/1369118X.2020.1864005."
   },
   {
     "objectID": "01_intro_digital_trace_data.html#our-agenda",
@@ -221,42 +431,28 @@
     "href": "01_intro_digital_trace_data.html#what-is-digital-trace-data-1",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "What is digital trace data?",
-    "text": "What is digital trace data?\n💡 Definition: The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena\n\ne.g., tweets, likes, shares on social media\ne.g., geo data (locations, movements)\ne.g., digital payments\ne.g., Spotify playlists"
+    "text": "What is digital trace data?\n💡 Definition: The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena.\nThis might include:\n\nTweets, likes, shares on social media\nGeo data (locations, movements)\nDigital payments\nSpotify playlists"
   },
   {
     "objectID": "01_intro_digital_trace_data.html#where-can-we-findcollect-digital-trace-data",
     "href": "01_intro_digital_trace_data.html#where-can-we-findcollect-digital-trace-data",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Where can we find/collect digital trace data?",
-    "text": "Where can we find/collect digital trace data?\n\nApps (e.g., running apps)\nSocial media platforms (e.g., Instagram)\nPayment systems (e.g., Paypal)\nWearable devices (e.g., smart watch)"
-  },
-  {
-    "objectID": "01_intro_digital_trace_data.html#which-types-of-data-does-this-include",
-    "href": "01_intro_digital_trace_data.html#which-types-of-data-does-this-include",
-    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
-    "section": "Which types of data does this include?",
-    "text": "Which types of data does this include?\nDepending on the data collection method… (Ohme et al. 2024):\n\noften fine-grained (e.g., time-stamped)\noften longitudinal (e.g., over years, within-individual change)\noften less reactive (e.g., less concerns about social desirability)"
+    "text": "Where can we find/collect digital trace data?\n\nApps (e.g., running apps)\nSocial media platforms (e.g., Instagram)\nPayment systems (e.g., Paypal)\nWearable devices (e.g., smart watch)\n\n\nDepending on the data collection method… (Ohme et al. 2024):\n\nOften fine-grained (e.g., time-stamped)\nOften longitudinal (e.g., over years, within-individual change)\nOften less reactive (e.g., less concerns about social desirability)"
   },
   {
     "objectID": "01_intro_digital_trace_data.html#which-latent-constructs-can-we-measure",
     "href": "01_intro_digital_trace_data.html#which-latent-constructs-can-we-measure",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Which (latent) constructs can we measure?",
-    "text": "Which (latent) constructs can we measure?\n\nInternet use (Parry et al. 2021) related to …\n\nwell-being (Ohme et al. 2024)\nvoting (Bach et al. 2021)\n\nNews engagement (Reiss 2023) related to …\n\nnews diversity (Jürgens and Stark 2022)\npublic opinion formation (Yan, Schroeder, and Stier 2022)\n\nMovements related to …\n\nMobility during pandemics (Li et al. 2021)\nSocial networks (Sepulvado et al. 2022)"
+    "text": "Which (latent) constructs can we measure?\n\nInternet use (Parry et al. 2021) related to …\n\nWell-being (Ohme et al. 2024) or voting (Bach et al. 2021)\n\nNews engagement (Reiss 2023) related to …\n\nNews diversity (Jürgens and Stark 2022) or public opinion formation (Yan, Schroeder, and Stier 2022)\n\nMovements related to …\n\nMobility during pandemics (Li et al. 2021) or social networks (Sepulvado et al. 2022)\n\n\n\n🤔 How many minutes a day do you use the internet to consume news?\n\n„Internet”?\n„News”?\n„How many minutes”?"
   },
   {
     "objectID": "01_intro_digital_trace_data.html#why-are-digital-traces-becoming-more-popular",
     "href": "01_intro_digital_trace_data.html#why-are-digital-traces-becoming-more-popular",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Why are digital traces becoming more popular?",
-    "text": "Why are digital traces becoming more popular?\n\n🤔 How many minutes a day do you use the internet to consume news?"
-  },
-  {
-    "objectID": "01_intro_digital_trace_data.html#why-are-digital-traces-becoming-more-popular-1",
-    "href": "01_intro_digital_trace_data.html#why-are-digital-traces-becoming-more-popular-1",
-    "title": "What do people do online?\nUsing data donation to understand digital behavior.",
-    "section": "Why are digital traces becoming more popular?",
-    "text": "Why are digital traces becoming more popular?\n\nProblems with self-reported data (e.g., via survey)\n\nSelf-reported data subject to specific bias (Scharkow 2016; Parry et al. 2021)\nResponse rates in surveys are declining (Luiten, Hox, and de Leeuw 2020)\n\nAvailabillity\n\ncheap (e.g., via APIs)\nlarge data sets (“big data”)"
+    "text": "Why are digital traces becoming more popular?\n\nProblems with self-reported data (e.g., via survey)\n\nSelf-reported data subject to specific bias (Scharkow 2016; Parry et al. 2021)\nResponse rates in surveys are declining (Luiten, Hox, and de Leeuw 2020)\n\nAvailabillity\n\nCheap (e.g., via APIs)\nLarge data sets (“big data”)"
   },
   {
     "objectID": "01_intro_digital_trace_data.html#dis-advantages-of-digital-trace-data",
@@ -277,6 +473,6 @@
     "href": "01_intro_digital_trace_data.html#references",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "References",
-    "text": "References\n\n\n\n\nBach, Ruben L., Christoph Kern, Ashley Amaya, Florian Keusch, Frauke Kreuter, Jan Hecht, and Jonathan Heinemann. 2021. “Predicting Voting Behavior Using Digital Trace Data.” Social Science Computer Review 39 (5): 862–83. https://doi.org/10.1177/0894439319882896.\n\n\nCaliandro, Alessandro. 2024. “Follow the User: Taking Advantage of Internet Users as Methodological Resources.” Convergence: The International Journal of Research into New Media Technologies, December, 13548565241307569. https://doi.org/10.1177/13548565241307569.\n\n\nCarrière, Thijs C., Laura Boeschoten, Bella Struminskaya, Heleen L. Janssen, Niek C. de Schipper, and Theo Araujo. 2025. “Best Practices for Studies Using Digital Data Donation.” Quality & Quantity 59 (1): 389–412. https://doi.org/10.1007/s11135-024-01983-x.\n\n\nChristner, Clara, Aleksandra Urman, Silke Adam, and Michaela Maier. 2022. “Automated Tracking Approaches for Studying Online Media Use: A Critical Review and Recommendations.” Communication Methods and Measures 16 (2): 79–95. https://doi.org/10.1080/19312458.2021.1907841.\n\n\nJünger, Jakob. 2021. “A Brief History of APIs.” In Handbook of Computational Social Science, Volume 2, 1st ed., 17–32. London: Routledge.\n\n\nJürgens, Pascal, and Birgit Stark. 2022. “Mapping Exposure Diversity: The Divergent Effects of Algorithmic Curation on News Consumption.” Journal of Communication, March, jqac009. https://doi.org/10.1093/joc/jqac009.\n\n\nLi, Xiao, Haowen Xu, Xiao Huang, Chenxiao Guo, Yuhao Kang, and Xinyue Ye. 2021. “Emerging Geo-Data Sources to Reveal Human Mobility Dynamics During COVID-19 Pandemic: Opportunities and Challenges.” Computational Urban Science 1 (1): 22. https://doi.org/10.1007/s43762-021-00022-x.\n\n\nLuiten, Annemieke, Joop Hox, and Edith de Leeuw. 2020. “Survey Nonresponse Trends and Fieldwork Effort in the 21st Century: Results of an International Study Across Countries and Surveys.” Journal of Official Statistics 36 (3): 469–87. https://doi.org/10.2478/jos-2020-0025.\n\n\nOhme, Jakob, Theo Araujo, Laura Boeschoten, Deen Freelon, Nilam Ram, Byron B. Reeves, and Thomas N. Robinson. 2024. “Digital Trace Data Collection for Social Media Effects Research: APIs, Data Donation, and (Screen) Tracking.” Communication Methods and Measures 18 (2): 124–41. https://doi.org/10.1080/19312458.2023.2181319.\n\n\nParry, Douglas A., Brittany I. Davidson, Craig J. R. Sewall, Jacob T. Fisher, Hannah Mieczkowski, and Daniel S. Quintana. 2021. “A Systematic Review and Meta-Analysis of Discrepancies Between Logged and Self-Reported Digital Media Use.” Nature Human Behaviour 5 (11): 1535–47. https://doi.org/10.1038/s41562-021-01117-5.\n\n\nReiss, Michael V. 2023. “Dissecting Non-Use of Online News – Systematic Evidence from Combining Tracking and Automated Text Classification.” Digital Journalism 11 (2): 363–83. https://doi.org/10.1080/21670811.2022.2105243.\n\n\nScharkow, Michael. 2016. “The Accuracy of Self-Reported Internet Use—A Validation Study Using Client Log Data.” Communication Methods and Measures 10 (1): 13–27. https://doi.org/10.1080/19312458.2015.1118446.\n\n\nSepulvado, Brandon, Michael Lee Wood, Ethan Fridmanski, Cheng Wang, Matthew J. Chandler, Omar Lizardo, and David Hachen. 2022. “Predicting Homophily and Social Network Connectivity From Dyadic Behavioral Similarity Trajectory Clusters.” Social Science Computer Review 40 (1): 195–211. https://doi.org/10.1177/0894439320923123.\n\n\nSloan, Luke, Curtis Jessop, Tarek Al Baghal, and Matthew Williams. 2020. “Linking Survey and Twitter Data: Informed Consent, Disclosure, Security, and Archiving.” Journal of Empirical Research on Human Research Ethics 15 (1-2): 63–76. https://doi.org/10.1177/1556264619853447.\n\n\nStruminskaya, Bella, Peter Lugtig, Vera Toepoel, Barry Schouten, Deirdre Giesen, and Ralph Dolmans. 2021. “Sharing Data Collected with Smartphone Sensors.” Public Opinion Quarterly 85 (S1): 423–62. https://doi.org/10.1093/poq/nfab025.\n\n\nWagner, Michael W. 2023. “Independence by Permission.” Science 381 (6656): 388–91. https://doi.org/10.1126/science.adi2430.\n\n\nYan, Pu, Ralph Schroeder, and Sebastian Stier. 2022. “Is There a Link Between Climate Change Scepticism and Populism? An Analysis of Web Tracking and Survey Data from Europe and the US.” Information, Communication & Society 25 (10): 1400–1439. https://doi.org/10.1080/1369118X.2020.1864005."
+    "text": "References\n\n\nBach, Ruben L., Christoph Kern, Ashley Amaya, Florian Keusch, Frauke Kreuter, Jan Hecht, and Jonathan Heinemann. 2021. “Predicting Voting Behavior Using Digital Trace Data.” Social Science Computer Review 39 (5): 862–83. https://doi.org/10.1177/0894439319882896.\n\n\nCaliandro, Alessandro. 2024. “Follow the User: Taking Advantage of Internet Users as Methodological Resources.” Convergence: The International Journal of Research into New Media Technologies, December, 13548565241307569. https://doi.org/10.1177/13548565241307569.\n\n\nCarrière, Thijs C., Laura Boeschoten, Bella Struminskaya, Heleen L. Janssen, Niek C. de Schipper, and Theo Araujo. 2025. “Best Practices for Studies Using Digital Data Donation.” Quality & Quantity 59 (1): 389–412. https://doi.org/10.1007/s11135-024-01983-x.\n\n\nChristner, Clara, Aleksandra Urman, Silke Adam, and Michaela Maier. 2022. “Automated Tracking Approaches for Studying Online Media Use: A Critical Review and Recommendations.” Communication Methods and Measures 16 (2): 79–95. https://doi.org/10.1080/19312458.2021.1907841.\n\n\nJünger, Jakob. 2021. “A Brief History of APIs.” In Handbook of Computational Social Science, Volume 2, 1st ed., 17–32. London: Routledge.\n\n\nJürgens, Pascal, and Birgit Stark. 2022. “Mapping Exposure Diversity: The Divergent Effects of Algorithmic Curation on News Consumption.” Journal of Communication, March, jqac009. https://doi.org/10.1093/joc/jqac009.\n\n\nLi, Xiao, Haowen Xu, Xiao Huang, Chenxiao Guo, Yuhao Kang, and Xinyue Ye. 2021. “Emerging Geo-Data Sources to Reveal Human Mobility Dynamics During COVID-19 Pandemic: Opportunities and Challenges.” Computational Urban Science 1 (1): 22. https://doi.org/10.1007/s43762-021-00022-x.\n\n\nLuiten, Annemieke, Joop Hox, and Edith de Leeuw. 2020. “Survey Nonresponse Trends and Fieldwork Effort in the 21st Century: Results of an International Study Across Countries and Surveys.” Journal of Official Statistics 36 (3): 469–87. https://doi.org/10.2478/jos-2020-0025.\n\n\nOhme, Jakob, Theo Araujo, Laura Boeschoten, Deen Freelon, Nilam Ram, Byron B. Reeves, and Thomas N. Robinson. 2024. “Digital Trace Data Collection for Social Media Effects Research: APIs, Data Donation, and (Screen) Tracking.” Communication Methods and Measures 18 (2): 124–41. https://doi.org/10.1080/19312458.2023.2181319.\n\n\nParry, Douglas A., Brittany I. Davidson, Craig J. R. Sewall, Jacob T. Fisher, Hannah Mieczkowski, and Daniel S. Quintana. 2021. “A Systematic Review and Meta-Analysis of Discrepancies Between Logged and Self-Reported Digital Media Use.” Nature Human Behaviour 5 (11): 1535–47. https://doi.org/10.1038/s41562-021-01117-5.\n\n\nReiss, Michael V. 2023. “Dissecting Non-Use of Online News – Systematic Evidence from Combining Tracking and Automated Text Classification.” Digital Journalism 11 (2): 363–83. https://doi.org/10.1080/21670811.2022.2105243.\n\n\nScharkow, Michael. 2016. “The Accuracy of Self-Reported Internet Use—A Validation Study Using Client Log Data.” Communication Methods and Measures 10 (1): 13–27. https://doi.org/10.1080/19312458.2015.1118446.\n\n\nSepulvado, Brandon, Michael Lee Wood, Ethan Fridmanski, Cheng Wang, Matthew J. Chandler, Omar Lizardo, and David Hachen. 2022. “Predicting Homophily and Social Network Connectivity From Dyadic Behavioral Similarity Trajectory Clusters.” Social Science Computer Review 40 (1): 195–211. https://doi.org/10.1177/0894439320923123.\n\n\nSloan, Luke, Curtis Jessop, Tarek Al Baghal, and Matthew Williams. 2020. “Linking Survey and Twitter Data: Informed Consent, Disclosure, Security, and Archiving.” Journal of Empirical Research on Human Research Ethics 15 (1-2): 63–76. https://doi.org/10.1177/1556264619853447.\n\n\nStruminskaya, Bella, Peter Lugtig, Vera Toepoel, Barry Schouten, Deirdre Giesen, and Ralph Dolmans. 2021. “Sharing Data Collected with Smartphone Sensors.” Public Opinion Quarterly 85 (S1): 423–62. https://doi.org/10.1093/poq/nfab025.\n\n\nWagner, Michael W. 2023. “Independence by Permission.” Science 381 (6656): 388–91. https://doi.org/10.1126/science.adi2430.\n\n\nYan, Pu, Ralph Schroeder, and Sebastian Stier. 2022. “Is There a Link Between Climate Change Scepticism and Populism? An Analysis of Web Tracking and Survey Data from Europe and the US.” Information, Communication & Society 25 (10): 1400–1439. https://doi.org/10.1080/1369118X.2020.1864005."
   }
 ]

@@ -1,0 +1,623 @@
+---
+title: |
+     What do people do online? \
+     Using data donation to understand digital behavior.
+subtitle: a workshop at the SPP Junior Researcher Meeting
+author:
+    - name: Frieder Rodewald
+      orcid: 0009-0009-6859-5761
+      affiliations: University of Mannheim & Institute for Employment Research
+    - name: Sebastian Prechsl
+      orcid: 0000-0001-9033-7317
+      affiliations: Institute for Employment Research & LMU Munich
+date: 10-22-2025
+date-format: long
+bibliography: references.bib
+execute:
+  eval: false
+  echo: true
+format:
+  unima-quarto-revealjs:
+    footer: Data Donation Workshop - Frieder & Sebastian
+    ## As one HTML-file
+    embed-resources: true
+    ## (Code) Format Options
+    email-obfuscation: none
+    code-line-numbers: true
+    ## Table of Contents
+    toc: false
+    toc-depth: 3
+    toc-title: Overview
+    ## Numbering
+    number-sections: false
+    number-depth: 3
+    ## Slides
+    incremental: false
+    slide-level: 2
+    slide-number: c
+    show-slide-number: all
+    title-slide-style: default
+    center-title-slide: true
+    show-notes: false
+    ## Slide Content
+    scrollable: true
+    smaller: false
+    ## Slide Tools
+    overview: true
+    menu: true
+    chalkboard: false
+    multiplex: false
+    ## Transitions
+    transition: fade
+    transition-speed: fast
+    ## Navigation
+    progress: true
+    history: false
+    navigation-mode: linear
+    keyboard: true
+    mouse-wheel: true
+    hide-inactive-cursor: true
+    hide-cursor-time: 500
+    loop: false
+    help: true
+    slide-tone: false
+    ## Media
+    preview-links: true
+    ## Slide Layout
+    auto-stretch: true
+    # width: 1600
+    # height: 1040
+    margin: 0.14
+    center: false
+    disable-layout: false
+    ## References
+    citations-hover: true
+    ## Footnotes
+    footnotes-hover: true
+    reference-location: document
+---
+
+
+## Our Agenda
+
+::: {.v-center}
+1️⃣ What is digital trace data?
+\
+\
+2️⃣ What is data donation? - The participant's perspective.
+\
+\
+3️⃣ What is data donation? - The researcher's perspective.
+:::
+
+## Who are you?
+
+Please raise your hand 🤚 if you ...
+
+- are familiar with the term digital trace data
+- have worked with APIs
+- have worked with data donation
+- have worked with automated content analysis
+- regularly use programming languages (e.g., R, Python)
+
+## About me: Frieder Rodewald
+
+🎓 PhD, University of Mannheim & Institute for Employment Research
+
+🧐 Research interests: "I study what people do online."
+
+\
+
+More info: [github.com/frodew](https://github.com/frodew) & [frieder-rodewald.de](https://frieder-rodewald.de/)
+
+
+## About me: Sebastian Prechsl
+
+...
+
+---
+
+👉 part of the SPP project [Integrating Data Donations in Survey Infrastructure](https://data-donation-science.de)
+
+![Our Team](images/spp_team.png)
+
+---
+
+::: {.v-center}
+A huge thanks to [Valerie Hase](https://valerie-hase.com), for conceptualizing a previous data donation workshop at CompText in Vienna.
+:::
+
+## What is the goal of this workshop?
+
+- ✅ Understanding digital data traces as a *type* of data
+- ✅ Understanding data donation as a *method* of data access
+- ✅ Working through key steps of data donation methods (participant & researcher view)
+- ❓ Discussing when (not) to use data donation studies
+- ❌ Detailed implementation (e.g., server set-up, coding data extraction scripts)
+
+# 1️⃣ What is digital trace data?
+
+---
+
+::: {.v-center}
+🤔 Which examples for digital trace data you know?
+:::
+
+## What is digital trace data?
+
+💡 **Definition:** *The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena.*
+
+This might include:
+
+- Tweets, likes, shares on social media
+- Geo data (locations, movements)
+- Digital payments
+- Spotify playlists
+
+## Where can we find/collect digital trace data?
+
+- Apps (e.g., running apps)
+- Social media platforms (e.g., Instagram)
+- Payment systems (e.g., Paypal)
+- Wearable devices (e.g., smart watch)
+
+::: {.notes}
+Depending on the data collection method... [[@ohme_etal2024]]{.cite}:
+
+- Often fine-grained (e.g., time-stamped)
+- Often longitudinal (e.g., over years, within-individual change)
+- Often less reactive (e.g., less concerns about social desirability)
+:::
+
+## Which (latent) constructs can we measure?
+
+- **Internet use** [[@parry_etal2021]]{.cite} related to ...
+  - Well-being [[@ohme_etal2024]]{.cite} or voting [[@bach_etal2021]]{.cite}
+- **News engagement** [[@reiss2023]]{.cite} related to ...
+  - News diversity [[@jurgens_stark2022]]{.cite} or public opinion formation [[@yan_etal2022]]{.cite}
+- **Movements** related to ...
+  - Mobility during pandemics [[@li_etal2021]]{.cite} or social networks [[@sepulvado_etal2022]]{.cite}
+
+::: {.notes}
+🤔 How many minutes a day do you use the internet to consume news?
+
+- „Internet"?
+
+- „News"?
+
+- „How many minutes"?
+:::
+
+## Why are digital traces becoming more popular?
+
+- **Problems with self-reported data** (e.g., via survey)
+  - Self-reported data subject to specific bias [[@scharkow2016; @parry_etal2021]]{.cite}
+  - Response rates in surveys are declining [[@luiten_etal2020]]{.cite}
+- **Availabillity**
+  - Cheap (e.g., via APIs)
+  - Large data sets ("big data")
+
+---
+
+::: {.v-center}
+⚠️ **Be careful**: These "advantages" are often claimed, but **not** empirically proven.
+
+👉 Digital traces are neither necessarily less biased, cheaper, or larger.
+:::
+
+## (Dis-)advantages of digital trace data
+
+- ✅ More fine-grained, often longitudinal measures due to timestamps
+- ✅ Partly measurement of new variables (e.g., algorithmic inference)
+- ❌ Bias due to errors in representation and measurement
+- ❌ Implementation can be expensive and cumbersome
+- ❌ More data does not mean better data!
+
+# How can we collect digital traces?
+
+## Platform- and user-centric methods
+
+- **Platform-centric** (based on platform cooperation)
+  - API [[@junger2021]]{.cite}
+  - Cooperation with platforms [[@wagner2023]]{.cite}
+- **User-centric** (based on user cooperation and informed consent) or "follow the user" approaches [[@caliandro2024]]{.cite}
+  - Data donation [[@carriere_etal2025]]{.cite}
+  - Linkage [[@sloan_etal2020]]{.cite}
+  - Sensors [[@struminskaya_etal2021]]{.cite}
+  - Tracking [[@christner_etal2022]]{.cite}
+
+::: {.notes}
+- Restrictions of platform-centric methods
+  - Discontinuation of APIs
+  - Concerns about bias
+- User-centric methods become more popular, given ...
+  - Changes in law that enable such studies (GDPR, DSA)
+  - Presumably (!) less biased data
+  - Ethical considerations (informed consent)
+:::
+
+---
+
+::: {.v-center}
+🤔 **Questions?**
+:::
+
+
+
+# 2️⃣ What is data donation?
+
+The participant's perspective.
+
+## Changes in legal contexts ⚖️ {.smaller}
+
+- EU secures right to own data in Art. 15 of the [General Data Protection Regulation](https://gdpr-info.eu/)
+  - "The data subject shall have [...] access to the personal data" (§ Art. 15, 1)
+  - "The controller shall provide a copy of the personal data" (§ Art. 15, 3)
+- According to § Art. 20, users must receive their data "in a structured, commonly used and machine-readable format" (§ Art. 20, 1)
+
+👉 **Solution:** Platforms offer data download packages (DDPs), which users can request and download to inspect data.
+
+👉 **Consequence**: Researchers uses DDPs as part of user-centric data donation studies.
+
+---
+
+::: {.v-center}
+🤔 Please raise your hand ✋
+
+(Before a week ago...) Who has ever tried to request their data from an online platform?
+:::
+
+## What are data donation studies?
+
+💡 **Definition:** *Data donation studies are a user-centric method for collecting digital traces.*
+
+- Users have the right to request, access, and download data that platforms collect about them.
+- They can make their *data download packages (DDPs)* available to science, often in the context of web surveys.
+- Researchers use CSS methods to filter, anonymize, and aggregate this data locally on participants' devices.
+- Participants can inspect/delete their data before any data is transferred.
+
+## Which types of data do DDPs contain?
+
+For platforms like YouTube, Instagram, or LinkedIn, for example... [[@hase_etal2024]]{.cite}
+
+- User profiles (e.g., privacy settings)
+- Activities (e.g., friends, likes, searches, exposure, analog movements)
+- Content and context (e.g., ads watched, algorithmically inferred interests)
+
+## How is data from DDPs different?
+
+Compared to **APIs** [[@ohme_etal2024]]{.cite}...
+
+- Control & informed consent of users
+- Longitudinal data without "rate limits"
+- Partly additional measurements (e.g., exposure data; non-public data)
+
+👉 but can be burdensome for participants!
+
+---
+
+::: {.v-center}
+<table style="width: 100%; border: none;">
+  <tr>
+    <td style="text-align: center; border: none;">{{< fa square-poll-horizontal size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa file-arrow-down size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa spinner size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa magnifying-glass-chart size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa square-check size=4x >}}</td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">Survey</td>
+    <td style="text-align: center;">Request & Download Data</td>
+    <td style="text-align: center;">Extract Data</td>
+    <td style="text-align: center;">Inspect Data</td>
+    <td style="text-align: center;">Consent</td>
+  </tr>
+</table>
+:::
+
+---
+
+::: {.v-center}
+
+🤔 How easy (or hard) did you find it to request your data? Did you encounter any obstacles?
+
+:::
+
+## {{< fa square-poll-horizontal >}} Survey
+
+![Survey start page](images/survey_start_page.png)
+
+## {{< fa file-arrow-down >}} Request & Download Data
+
+Different degrees in standardization for data requests [[@hase_etal2024]]{.cite}...
+
+- Verification procedure (password requirements)
+- Specification of data (metrics, observation period)
+- Notification on provision of DDP
+- Duration of DDP availability
+
+---
+
+![Request manual for LinkedIn on computer](images/request_manual_linkedin.png)
+
+---
+
+![Request manual for Instagram on computer](images/request_manual_instagram.png)
+
+# {{< fa spinner >}} Extract Data
+
+## {{< fa magnifying-glass-chart >}} Inspect Data
+
+![Data overview on data donation platform](images/overview_donation_page.png)
+
+# {{< fa square-check >}} Data donation
+
+---
+
+::: {.v-center}
+**📢 Task: Try it yourself.**
+
+You might have already requested and downloaded your data in preparation for today.
+\
+\
+Did you encounter any difficulties in sharing your data?
+:::
+
+
+---
+
+::: {.v-center}
+🤔 **Questions?**
+:::
+
+
+
+# 3️⃣ What is data donation?
+
+The researcher's perspective.
+
+---
+
+::: {.v-center}
+🤔 What are methodological decisions researchers have to take in data donation studies?
+:::
+
+---
+
+🔑 Key decisions:
+
+- Which theoretical questions do I want to answer?
+- How do I operationalize key variables via my data donation tool?
+- How do I integrate the tool in surveys & recruit participants?
+
+---
+
+::: {.v-center}
+<table style="width: 100%; border: none;">
+  <tr>
+    <td style="text-align: center; border: none;">{{< fa square-poll-horizontal size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa file-arrow-down size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa spinner size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa magnifying-glass-chart size=4x >}}</td>
+    <td style="text-align: center; border: none;">{{< fa square-check size=4x >}}</td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">Survey</td>
+    <td style="text-align: center;">Request & Download Data</td>
+    <td style="text-align: center;">Extract Data</td>
+    <td style="text-align: center;">Inspect Data</td>
+    <td style="text-align: center;">Consent</td>
+  </tr>
+</table>
+:::
+
+---
+
+## Decisions we took {.smaller}
+
+:::: {.columns style="background: none;"}
+::: {.column width="33%"}
+![](images/preprint_cover.png){width="96%" fig-align="center"}
+:::
+::: {.column width="60%"}
+- **Goal**: Increase participation in the context of labour market studies and understand non-response bias
+- **Issue**: Low response rates (e.g., [[@hase_haim2024; @keusch_etal2024]]{.cite})
+    - Behavioral intentions as "willingness to donate" high (79-52% of survey respondents)
+    - Actual behavior as "participation in data donation" low (37-12% of survey respondents)
+    - Well known intention-behavior gap; where 🤑 seems to help [[@kmetty_etal2025]]{.cite}
+- **Sample**: A non-probability panel (online access panel)
+:::
+::::
+
+## {{< fa square-poll-horizontal >}} Survey
+
+- Survey concerning...
+  - online platform usage (YouTube, Instagram, and LinkedIn),
+  - labor market characteristics,
+  - and common indicators for non-participation.
+
+# {{< fa file-arrow-down >}} Data request & download
+
+# {{< fa spinner >}} Data extraction
+
+## 🛠️ Strategy to make the extraction work
+
+1. Take a look at the DDP; download it, best for multiple time periods and for different languages
+2. Understand the structure of the JSON or CSV.
+3. Get an example file running.
+4. Write the code for the extraction script.
+5. Test your script, first locally and then in the wild.
+6. Adapt your script.
+
+---
+
+::: {.v-center}
+**📢 Task: Try it yourself.**
+\
+\
+Take a look at your downloaded data. What do you see; anything caught your eye?
+\
+\
+Feel free to work in groups of 2-3 people for 5 minutes.
+:::
+
+---
+
+Different degrees in standardization for DDP content [[@hase_etal2024]]{.cite}...
+
+- Documentation
+  - DDP structure?
+  - Measurements?
+
+- Completeness & scope
+  - Missing data?
+  - Limited time frames?
+  - Language sensitive?
+
+## 🚨 Key issues  [[@hase_etal2024]]{.cite}
+
+-   Missing documentation by platforms (e.g., file structure)
+-   Sudden changes in DDPs
+-   Differences across languages & devices
+-   Insufficient in-tool classification (e.g., LLM integration)
+
+## Example: Extract list of subscriptions
+
+![subscriptions.csv (before processing)](images/subscriptions_csv.png){fig-align="left" width="200"}
+
+---
+
+```{.python}
+...
+    "subscriptions": {
+        "extraction_function": ef.extract_subscriptions,
+        "possible_filenames": ["Abos.csv", "subscriptions.csv"],
+        "title": {
+            "en": "Which channels are you subscribed to?",
+            "de": "Welche Kanäle haben Sie abonniert?",
+            "nl": "Op welke kanalen ben je geabonneerd?",
+        },
+    },
+...
+```
+
+---
+
+```{.python code-line-numbers="1-20"}
+def extract_youtube_content_from_zip_folder(zip_file_path, possible_filenames):
+    """Extract content from YouTube data export zip file using filenames"""
+
+    try:
+        with zipfile.ZipFile(zip_file_path, "r") as zip_ref:
+            # Get the list of file names in the zip file
+            filenames = zip_ref.namelist()
+            # Look for matching files
+            for possible_filename in possible_filenames:
+                for filename in filenames:
+                    if possible_filename in filename:
+                        try:
+                            # Process based on file extension
+                            if filename.endswith(".json"):
+                                with zip_ref.open(filename) as json_file:
+                                    json_content = json.loads(json_file.read())
+                                    return json_content
+                            elif file_name.endswith(".csv"):
+                                with zip_ref.open(file_name) as csv_file:
+                                    csv_content = pd.read_csv(csv_file)
+```
+
+---
+
+```{.python code-line-numbers="1-15"}
+def extract_subscriptions(subscriptions_csv):
+    """Extract YouTube channel subscriptions"""
+
+    # Define column name
+    if "Kanaltitel" in subscriptions_csv.columns:
+        channel_column = "Kanaltitel"
+    else:
+        channel_column = "Channel Title"
+
+    # Define description
+    channel_name = "Subscribed Channel"
+
+    # Create DataFrame with just the channel names
+    subscriptions_df = pd.DataFrame({channel_name: subscriptions_csv[channel_column]})
+    return subscriptions_df
+```
+
+---
+
+![subscriptions.csv (after processing)](images/subscriptions_donated.png){fig-align="left" width="200"}
+
+# {{< fa magnifying-glass-chart >}} Data inspection
+
+# {{< fa square-check >}} Data donation
+
+- A data donation platform helps to guide them through the process
+- The process should be made as easy as possible for participants
+
+## 📚 Workshop Takeaways
+
+- There are many ways in which researchers can learn about people's online behavior through digital trace data
+- People can request, download and finally donate their (anonymized) data form most online platforms
+- Data donation can be burdensome for participants
+- Data quailty heavily depends on the platform and what kind of data you extract from participants
+
+---
+
+::: {.v-center}
+🙃 Thank you for participating; happy to talk with you about data donation (and anything else) throughout the next days.
+:::
+
+## EXTRA: Can I extend the data?
+
+-   Manual annotation by participants during data donation
+-   APIs/scraping to extend collected data
+-   Text-as-data methods for classification
+
+## EXTRA: Errors in representation
+
+For example ...
+
+-   **Coverage error**: Who is (not) represented in the sampling frame? (e.g., social media users vs. YouTube users)
+-   **Sampling error**: Who is (not) represented in the sample? (e.g., non-probability samples)
+-   **Non-response error**: Who does (not) want to participate in the data donation?
+-   **Compliance error**: Who is (not) able to participate in the data donation?
+
+---
+
+::: {.v-center}
+🤔 What do you think: Which participant characteristics may correlate with non-response or non-compliance?
+:::
+
+# EXTRA: What's next for data donation studies?
+
+## Advancing the method
+
+-   📸 Multimodal & cross-platform data [[@wedel_etal2024]]{.cite}
+-   In-tool, local classification (e.g., local ML/LLMs?)
+-   Workflow/UX-perspective
+
+## Data as a political tool
+
+-   Platforms do (willingly?) not provide data according to the GDPR/DSA [[@hase_etal2024]]{.cite}
+-   The EU has started to sanction platforms like X/TikTok
+-   DSA may become the subject of larger geo-political debates with the USA [[@seiling_etal2025]]{.cite}
+
+## 🚀 Can we improve & apply the method?
+
+-   Can the method actually be applied for empirical research? (few examples, like [[@thorson_etal2021; @wojcieszak_etal2024]]{.cite})
+-   Requires interdisciplinary perspectives (e.g., addressing bias, integration in probability-based panels)
+
+---
+
+::: {.v-center}
+🤔 **Questions?**
+:::
+
+
+## References {style="font-size: 0.30em;"}
+
+::: {#refs style="column-count: 2; column-gap: 1em;"}
+:::
