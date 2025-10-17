@@ -4,7 +4,7 @@
     "href": "02_data_donation_participant_perspective.html#changes-in-legal-contexts",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Changes in legal contexts ⚖️",
-    "text": "Changes in legal contexts ⚖️\n\nEU secures right to own data in Art. 15 of the General Data Protection Regulation\n\n“The data subject shall have […] access to the personal data” (§ Art. 15, 1)\n“The controller shall provide a copy of the personal data” (§ Art. 15, 3)\n\nAccording to § Art. 20, users must receive their data “in a structured, commonly used and machine-readable format” (§ Art. 20, 1)\n\n👉 Solution: Platforms offer data download packages (DDPs), which users can request and download to inspect data.\n👉 Consequence: Researchers uses DDPs as part of user-centric data donation studies."
+    "text": "Changes in legal contexts ⚖️\n\nEU secures right to own data in Art. 15 of the General Data Protection Regulation\n\n\"The data subject shall have […] access to the personal data\" (§ Art. 15, 1)\n\"The controller shall provide a copy of the personal data\" (§ Art. 15, 3)\n\nAccording to § Art. 20, users must receive their data \"in a structured, commonly used and machine-readable format\" (§ Art. 20, 1)\n\n👉 Solution: Platforms offer data download packages (DDPs), which users can request and download to inspect data.\n👉 Consequence: Researchers uses DDPs as part of user-centric data donation studies."
   },
   {
     "objectID": "02_data_donation_participant_perspective.html#what-are-data-donation-studies",
@@ -25,7 +25,7 @@
     "href": "02_data_donation_participant_perspective.html#how-is-data-from-ddps-different",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "How is data from DDPs different?",
-    "text": "How is data from DDPs different?\nCompared to APIs (Ohme et al. 2024)…\n\nControl & informed consent of users\nLongitudinal data without “rate limits”\nPartly additional measurements (e.g., exposure data; non-public data)\n\n👉 but can be burdensome for participants!"
+    "text": "How is data from DDPs different?\nCompared to APIs (Ohme et al. 2024)…\n\nControl & informed consent of users\nLongitudinal data without \"rate limits\"\nPartly additional measurements (e.g., exposure data; non-public data)\n\n👉 but can be burdensome for participants!"
   },
   {
     "objectID": "02_data_donation_participant_perspective.html#survey",
@@ -102,7 +102,7 @@
     "href": "03_data_donation_researcher_perspective.html#decisions-we-took",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Decisions we took",
-    "text": "Decisions we took\n\n\n\n\n\n\n\n\n\nGoal: Increase participation in the context of labour market studies and understand non-response bias\nIssue: Low response rates (e.g., (Hase and Haim 2024; Keusch et al. 2024))\n\nBehavioral intentions as “willingness to donate” high (79-52% of survey respondents)\nActual behavior as “participation in data donation” low (37-12% of survey respondents)\nWell known intention-behavior gap; where 🤑 seems to help (Kmetty et al. 2025)\n\nSample: A non-probability panel (online access panel)"
+    "text": "Decisions we took\n\n\n\n\n\n\n\n\n\nGoal: Increase participation in the context of labour market studies and understand non-response bias\nIssue: Low response rates (e.g., (Hase and Haim 2024; Keusch et al. 2024))\n\nBehavioral intentions as \"willingness to donate\" high (79-52% of survey respondents)\nActual behavior as \"participation in data donation\" low (37-12% of survey respondents)\nWell known intention-behavior gap; where 🤑 seems to help (Kmetty et al. 2025)\n\nSample: A non-probability panel (online access panel)"
   },
   {
     "objectID": "03_data_donation_researcher_perspective.html#survey",
@@ -200,14 +200,14 @@
     "href": "presentation_slides_combined.html#about-me-frieder-rodewald",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "About me: Frieder Rodewald",
-    "text": "About me: Frieder Rodewald\n🎓 PhD, University of Mannheim & Institute for Employment Research\n🧐 Research interests: “I study what people do online.”\n\n\nMore info: github.com/frodew & frieder-rodewald.de"
+    "text": "About me: Frieder Rodewald\n🎓 PhD, University of Mannheim & Institute for Employment Research\n🧐 Research interests: \"I study what people do online.\"\n\n\nMore info: github.com/frodew & frieder-rodewald.de"
   },
   {
     "objectID": "presentation_slides_combined.html#about-me-sebastian-prechsl",
     "href": "presentation_slides_combined.html#about-me-sebastian-prechsl",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "About me: Sebastian Prechsl",
-    "text": "About me: Sebastian Prechsl\n…"
+    "text": "About me: Sebastian Prechsl\n🎓 Postdoc at Institute for Employment Research & LMU\n🧐 Research interests: Social inequalities (in the labor market), potentials of digital trace data for labor market research"
   },
   {
     "objectID": "presentation_slides_combined.html#what-is-the-goal-of-this-workshop",
@@ -235,14 +235,14 @@
     "href": "presentation_slides_combined.html#which-latent-constructs-can-we-measure",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Which (latent) constructs can we measure?",
-    "text": "Which (latent) constructs can we measure?\n\nInternet use (Parry et al. 2021) related to …\n\nWell-being (Ohme et al. 2024) or voting (Bach et al. 2021)\n\nNews engagement (Reiss 2023) related to …\n\nNews diversity (Jürgens and Stark 2022) or public opinion formation (Yan, Schroeder, and Stier 2022)\n\nMovements related to …\n\nMobility during pandemics (Li et al. 2021) or social networks (Sepulvado et al. 2022)\n\n\n\n🤔 How many minutes a day do you use the internet to consume news?\n\n„Internet”?\n„News”?\n„How many minutes”?"
+    "text": "Which (latent) constructs can we measure?\n\nInternet use (Parry et al. 2021) related to …\n\nWell-being (Ohme et al. 2024) or voting (Bach et al. 2021)\n\nNews engagement (Reiss 2023) related to …\n\nNews diversity (Jürgens and Stark 2022) or public opinion formation (Yan, Schroeder, and Stier 2022)\n\nMovements related to …\n\nMobility during pandemics (Li et al. 2021) or social networks (Sepulvado et al. 2022)\n\n\n\n🤔 How many minutes a day do you use the internet to consume news?\n\n\"Internet\"?\n\"News\"?\n\"How many minutes\"?"
   },
   {
     "objectID": "presentation_slides_combined.html#why-are-digital-traces-becoming-more-popular",
     "href": "presentation_slides_combined.html#why-are-digital-traces-becoming-more-popular",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Why are digital traces becoming more popular?",
-    "text": "Why are digital traces becoming more popular?\n\nProblems with self-reported data (e.g., via survey)\n\nSelf-reported data subject to specific bias (Scharkow 2016; Parry et al. 2021)\nResponse rates in surveys are declining (Luiten, Hox, and de Leeuw 2020)\n\nAvailabillity\n\nCheap (e.g., via APIs)\nLarge data sets (“big data”)"
+    "text": "Why are digital traces becoming more popular?\n\nProblems with self-reported data (e.g., via survey)\n\nSelf-reported data subject to specific bias (Scharkow 2016; Parry et al. 2021)\nResponse rates in surveys are declining (Luiten, Hox, and de Leeuw 2020)\n\nAvailabillity\n\nCheap (e.g., via APIs)\nLarge data sets (\"big data\")"
   },
   {
     "objectID": "presentation_slides_combined.html#dis-advantages-of-digital-trace-data",
@@ -256,14 +256,14 @@
     "href": "presentation_slides_combined.html#platform--and-user-centric-methods",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Platform- and user-centric methods",
-    "text": "Platform- and user-centric methods\n\nPlatform-centric (based on platform cooperation)\n\nAPI (Jünger 2021)\nCooperation with platforms (Wagner 2023)\n\nUser-centric (based on user cooperation and informed consent) or “follow the user” approaches (Caliandro 2024)\n\nData donation (Carrière et al. 2025)\nLinkage (Sloan et al. 2020)\nSensors (Struminskaya et al. 2021)\nTracking (Christner et al. 2022)\n\n\n\n\nRestrictions of platform-centric methods\n\nDiscontinuation of APIs\nConcerns about bias\n\nUser-centric methods become more popular, given …\n\nChanges in law that enable such studies (GDPR, DSA)\nPresumably (!) less biased data\nEthical considerations (informed consent)"
+    "text": "Platform- and user-centric methods\n\nPlatform-centric (based on platform cooperation)\n\nAPI (Jünger 2021)\nCooperation with platforms (Wagner 2023)\n\nUser-centric (based on user cooperation and informed consent) or \"follow the user\" approaches (Caliandro 2024)\n\nData donation (Carrière et al. 2025)\nLinkage (Sloan et al. 2020)\nSensors (Struminskaya et al. 2021)\nTracking (Christner et al. 2022)\n\n\n\n\nRestrictions of platform-centric methods\n\nDiscontinuation of APIs\nConcerns about bias\n\nUser-centric methods become more popular, given …\n\nChanges in law that enable such studies (GDPR, DSA)\nPresumably (!) less biased data\nEthical considerations (informed consent)"
   },
   {
     "objectID": "presentation_slides_combined.html#changes-in-legal-contexts",
     "href": "presentation_slides_combined.html#changes-in-legal-contexts",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Changes in legal contexts ⚖️",
-    "text": "Changes in legal contexts ⚖️\n\nEU secures right to own data in Art. 15 of the General Data Protection Regulation\n\n“The data subject shall have […] access to the personal data” (§ Art. 15, 1)\n“The controller shall provide a copy of the personal data” (§ Art. 15, 3)\n\nAccording to § Art. 20, users must receive their data “in a structured, commonly used and machine-readable format” (§ Art. 20, 1)\n\n👉 Solution: Platforms offer data download packages (DDPs), which users can request and download to inspect data.\n👉 Consequence: Researchers uses DDPs as part of user-centric data donation studies."
+    "text": "Changes in legal contexts ⚖️\n\nEU secures right to own data in Art. 15 of the General Data Protection Regulation\n\n\"The data subject shall have […] access to the personal data\" (§ Art. 15, 1)\n\"The controller shall provide a copy of the personal data\" (§ Art. 15, 3)\n\nAccording to § Art. 20, users must receive their data \"in a structured, commonly used and machine-readable format\" (§ Art. 20, 1)\n\n👉 Solution: Platforms offer data download packages (DDPs), which users can request and download to inspect data.\n👉 Consequence: Researchers uses DDPs as part of user-centric data donation studies."
   },
   {
     "objectID": "presentation_slides_combined.html#what-are-data-donation-studies",
@@ -284,7 +284,7 @@
     "href": "presentation_slides_combined.html#how-is-data-from-ddps-different",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "How is data from DDPs different?",
-    "text": "How is data from DDPs different?\nCompared to APIs (Ohme et al. 2024)…\n\nControl & informed consent of users\nLongitudinal data without “rate limits”\nPartly additional measurements (e.g., exposure data; non-public data)\n\n👉 but can be burdensome for participants!"
+    "text": "How is data from DDPs different?\nCompared to APIs (Ohme et al. 2024)…\n\nControl & informed consent of users\nLongitudinal data without \"rate limits\"\nPartly additional measurements (e.g., exposure data; non-public data)\n\n👉 but can be burdensome for participants!"
   },
   {
     "objectID": "presentation_slides_combined.html#survey",
@@ -312,7 +312,7 @@
     "href": "presentation_slides_combined.html#decisions-we-took",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Decisions we took",
-    "text": "Decisions we took\n\n\n\n\n\n\n\n\n\nGoal: Increase participation in the context of labour market studies and understand non-response bias\nIssue: Low response rates (e.g., (Hase and Haim 2024; Keusch et al. 2024))\n\nBehavioral intentions as “willingness to donate” high (79-52% of survey respondents)\nActual behavior as “participation in data donation” low (37-12% of survey respondents)\nWell known intention-behavior gap; where 🤑 seems to help (Kmetty et al. 2025)\n\nSample: A non-probability panel (online access panel)"
+    "text": "Decisions we took\n\n\n\n\n\n\n\n\n\nGoal: Increase participation in the context of labour market studies and understand non-response bias\nIssue: Low response rates (e.g., (Hase and Haim 2024; Keusch et al. 2024))\n\nBehavioral intentions as \"willingness to donate\" high (79-52% of survey respondents)\nActual behavior as \"participation in data donation\" low (37-12% of survey respondents)\nWell known intention-behavior gap; where 🤑 seems to help (Kmetty et al. 2025)\n\nSample: A non-probability panel (online access panel)"
   },
   {
     "objectID": "presentation_slides_combined.html#survey-1",
@@ -410,14 +410,14 @@
     "href": "01_intro_digital_trace_data.html#about-me-frieder-rodewald",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "About me: Frieder Rodewald",
-    "text": "About me: Frieder Rodewald\n🎓 PhD, University of Mannheim & Institute for Employment Research\n🧐 Research interests: “I study what people do online.”\n\n\nMore info: github.com/frodew & frieder-rodewald.de"
+    "text": "About me: Frieder Rodewald\n🎓 PhD, University of Mannheim & Institute for Employment Research\n🧐 Research interests: \"I study what people do online.\"\n\n\nMore info: github.com/frodew & frieder-rodewald.de"
   },
   {
     "objectID": "01_intro_digital_trace_data.html#about-me-sebastian-prechsl",
     "href": "01_intro_digital_trace_data.html#about-me-sebastian-prechsl",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "About me: Sebastian Prechsl",
-    "text": "About me: Sebastian Prechsl\n…"
+    "text": "About me: Sebastian Prechsl\n🎓 Postdoc at Institute for Employment Research & LMU\n🧐 Research interests: Social inequalities (in the labor market), potentials of digital trace data for labor market research"
   },
   {
     "objectID": "01_intro_digital_trace_data.html#what-is-the-goal-of-this-workshop",
@@ -445,14 +445,14 @@
     "href": "01_intro_digital_trace_data.html#which-latent-constructs-can-we-measure",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Which (latent) constructs can we measure?",
-    "text": "Which (latent) constructs can we measure?\n\nInternet use (Parry et al. 2021) related to …\n\nWell-being (Ohme et al. 2024) or voting (Bach et al. 2021)\n\nNews engagement (Reiss 2023) related to …\n\nNews diversity (Jürgens and Stark 2022) or public opinion formation (Yan, Schroeder, and Stier 2022)\n\nMovements related to …\n\nMobility during pandemics (Li et al. 2021) or social networks (Sepulvado et al. 2022)\n\n\n\n🤔 How many minutes a day do you use the internet to consume news?\n\n„Internet”?\n„News”?\n„How many minutes”?"
+    "text": "Which (latent) constructs can we measure?\n\nInternet use (Parry et al. 2021) related to …\n\nWell-being (Ohme et al. 2024) or voting (Bach et al. 2021)\n\nNews engagement (Reiss 2023) related to …\n\nNews diversity (Jürgens and Stark 2022) or public opinion formation (Yan, Schroeder, and Stier 2022)\n\nMovements related to …\n\nMobility during pandemics (Li et al. 2021) or social networks (Sepulvado et al. 2022)\n\n\n\n🤔 How many minutes a day do you use the internet to consume news?\n\n\"Internet\"?\n\"News\"?\n\"How many minutes\"?"
   },
   {
     "objectID": "01_intro_digital_trace_data.html#why-are-digital-traces-becoming-more-popular",
     "href": "01_intro_digital_trace_data.html#why-are-digital-traces-becoming-more-popular",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Why are digital traces becoming more popular?",
-    "text": "Why are digital traces becoming more popular?\n\nProblems with self-reported data (e.g., via survey)\n\nSelf-reported data subject to specific bias (Scharkow 2016; Parry et al. 2021)\nResponse rates in surveys are declining (Luiten, Hox, and de Leeuw 2020)\n\nAvailabillity\n\nCheap (e.g., via APIs)\nLarge data sets (“big data”)"
+    "text": "Why are digital traces becoming more popular?\n\nProblems with self-reported data (e.g., via survey)\n\nSelf-reported data subject to specific bias (Scharkow 2016; Parry et al. 2021)\nResponse rates in surveys are declining (Luiten, Hox, and de Leeuw 2020)\n\nAvailabillity\n\nCheap (e.g., via APIs)\nLarge data sets (\"big data\")"
   },
   {
     "objectID": "01_intro_digital_trace_data.html#dis-advantages-of-digital-trace-data",
@@ -466,7 +466,7 @@
     "href": "01_intro_digital_trace_data.html#platform--and-user-centric-methods",
     "title": "What do people do online?\nUsing data donation to understand digital behavior.",
     "section": "Platform- and user-centric methods",
-    "text": "Platform- and user-centric methods\n\nPlatform-centric (based on platform cooperation)\n\nAPI (Jünger 2021)\nCooperation with platforms (Wagner 2023)\n\nUser-centric (based on user cooperation and informed consent) or “follow the user” approaches (Caliandro 2024)\n\nData donation (Carrière et al. 2025)\nLinkage (Sloan et al. 2020)\nSensors (Struminskaya et al. 2021)\nTracking (Christner et al. 2022)\n\n\n\n\nRestrictions of platform-centric methods\n\nDiscontinuation of APIs\nConcerns about bias\n\nUser-centric methods become more popular, given …\n\nChanges in law that enable such studies (GDPR, DSA)\nPresumably (!) less biased data\nEthical considerations (informed consent)"
+    "text": "Platform- and user-centric methods\n\nPlatform-centric (based on platform cooperation)\n\nAPI (Jünger 2021)\nCooperation with platforms (Wagner 2023)\n\nUser-centric (based on user cooperation and informed consent) or \"follow the user\" approaches (Caliandro 2024)\n\nData donation (Carrière et al. 2025)\nLinkage (Sloan et al. 2020)\nSensors (Struminskaya et al. 2021)\nTracking (Christner et al. 2022)\n\n\n\n\nRestrictions of platform-centric methods\n\nDiscontinuation of APIs\nConcerns about bias\n\nUser-centric methods become more popular, given …\n\nChanges in law that enable such studies (GDPR, DSA)\nPresumably (!) less biased data\nEthical considerations (informed consent)"
   },
   {
     "objectID": "01_intro_digital_trace_data.html#references",

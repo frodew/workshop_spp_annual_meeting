@@ -104,7 +104,7 @@ Please raise your hand 🤚 if you ...
 
 🎓 PhD, University of Mannheim & Institute for Employment Research
 
-🧐 Research interests: "I study what people do online."
+🧐 Research interests: \"I study what people do online.\"
 
 \
 
@@ -113,7 +113,9 @@ More info: [github.com/frodew](https://github.com/frodew) & [frieder-rodewald.de
 
 ## About me: Sebastian Prechsl
 
-...
+🎓 Postdoc at Institute for Employment Research & LMU
+
+🧐 Research interests: Social inequalities (in the labor market), potentials of digital trace data for labor market research
 
 ---
 
@@ -181,11 +183,9 @@ Depending on the data collection method... [[@ohme_etal2024]]{.cite}:
 ::: {.notes}
 🤔 How many minutes a day do you use the internet to consume news?
 
-- „Internet"?
-
-- „News"?
-
-- „How many minutes"?
+- \"Internet\"?
+- \"News\"?
+- \"How many minutes\"?
 :::
 
 ## Why are digital traces becoming more popular?
@@ -195,12 +195,12 @@ Depending on the data collection method... [[@ohme_etal2024]]{.cite}:
   - Response rates in surveys are declining [[@luiten_etal2020]]{.cite}
 - **Availabillity**
   - Cheap (e.g., via APIs)
-  - Large data sets ("big data")
+  - Large data sets (\"big data\")
 
 ---
 
 ::: {.v-center}
-⚠️ **Be careful**: These "advantages" are often claimed, but **not** empirically proven.
+⚠️ **Be careful**: These \"advantages\" are often claimed, but **not** empirically proven.
 
 👉 Digital traces are neither necessarily less biased, cheaper, or larger.
 :::
@@ -220,7 +220,7 @@ Depending on the data collection method... [[@ohme_etal2024]]{.cite}:
 - **Platform-centric** (based on platform cooperation)
   - API [[@junger2021]]{.cite}
   - Cooperation with platforms [[@wagner2023]]{.cite}
-- **User-centric** (based on user cooperation and informed consent) or "follow the user" approaches [[@caliandro2024]]{.cite}
+- **User-centric** (based on user cooperation and informed consent) or \"follow the user\" approaches [[@caliandro2024]]{.cite}
   - Data donation [[@carriere_etal2025]]{.cite}
   - Linkage [[@sloan_etal2020]]{.cite}
   - Sensors [[@struminskaya_etal2021]]{.cite}
@@ -251,9 +251,9 @@ The participant's perspective.
 ## Changes in legal contexts ⚖️ {.smaller}
 
 - EU secures right to own data in Art. 15 of the [General Data Protection Regulation](https://gdpr-info.eu/)
-  - "The data subject shall have [...] access to the personal data" (§ Art. 15, 1)
-  - "The controller shall provide a copy of the personal data" (§ Art. 15, 3)
-- According to § Art. 20, users must receive their data "in a structured, commonly used and machine-readable format" (§ Art. 20, 1)
+  - \"The data subject shall have [...] access to the personal data\" (§ Art. 15, 1)
+  - \"The controller shall provide a copy of the personal data\" (§ Art. 15, 3)
+- According to § Art. 20, users must receive their data \"in a structured, commonly used and machine-readable format\" (§ Art. 20, 1)
 
 👉 **Solution:** Platforms offer data download packages (DDPs), which users can request and download to inspect data.
 
@@ -289,7 +289,7 @@ For platforms like YouTube, Instagram, or LinkedIn, for example... [[@hase_etal2
 Compared to **APIs** [[@ohme_etal2024]]{.cite}...
 
 - Control & informed consent of users
-- Longitudinal data without "rate limits"
+- Longitudinal data without \"rate limits\"
 - Partly additional measurements (e.g., exposure data; non-public data)
 
 👉 but can be burdensome for participants!
@@ -313,14 +313,6 @@ Compared to **APIs** [[@ohme_etal2024]]{.cite}...
     <td style="text-align: center;">Consent</td>
   </tr>
 </table>
-:::
-
----
-
-::: {.v-center}
-
-🤔 How easy (or hard) did you find it to request your data? Did you encounter any obstacles?
-
 :::
 
 ## {{< fa square-poll-horizontal >}} Survey
@@ -422,8 +414,8 @@ The researcher's perspective.
 ::: {.column width="60%"}
 - **Goal**: Increase participation in the context of labour market studies and understand non-response bias
 - **Issue**: Low response rates (e.g., [[@hase_haim2024; @keusch_etal2024]]{.cite})
-    - Behavioral intentions as "willingness to donate" high (79-52% of survey respondents)
-    - Actual behavior as "participation in data donation" low (37-12% of survey respondents)
+    - Behavioral intentions as \"willingness to donate\" high (79-52% of survey respondents)
+    - Actual behavior as \"participation in data donation\" low (37-12% of survey respondents)
     - Well known intention-behavior gap; where 🤑 seems to help [[@kmetty_etal2025]]{.cite}
 - **Sample**: A non-probability panel (online access panel)
 :::

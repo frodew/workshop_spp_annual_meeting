@@ -182,9 +182,9 @@ Depending on the data collection method... [[@ohme_etal2024]]{.cite}:
 ::: {.notes}
 🤔 How many minutes a day do you use the internet to consume news?
 
-- „Internet"?
-- „News"?
-- „How many minutes"?
+- \"Internet\"?
+- \"News\"?
+- \"How many minutes\"?
 :::
 
 ## Why are digital traces becoming more popular?
@@ -194,12 +194,12 @@ Depending on the data collection method... [[@ohme_etal2024]]{.cite}:
   - Response rates in surveys are declining [[@luiten_etal2020]]{.cite}
 - **Availabillity**
   - Cheap (e.g., via APIs)
-  - Large data sets ("big data")
+  - Large data sets (\"big data\")
 
 ---
 
 ::: {.v-center}
-⚠️ **Be careful**: These "advantages" are often claimed, but **not** empirically proven.
+⚠️ **Be careful**: These \"advantages\" are often claimed, but **not** empirically proven.
 
 👉 Digital traces are neither necessarily less biased, cheaper, or larger.
 :::
@@ -219,7 +219,7 @@ Depending on the data collection method... [[@ohme_etal2024]]{.cite}:
 - **Platform-centric** (based on platform cooperation)
   - API [[@junger2021]]{.cite}
   - Cooperation with platforms [[@wagner2023]]{.cite}
-- **User-centric** (based on user cooperation and informed consent) or "follow the user" approaches [[@caliandro2024]]{.cite}
+- **User-centric** (based on user cooperation and informed consent) or \"follow the user\" approaches [[@caliandro2024]]{.cite}
   - Data donation [[@carriere_etal2025]]{.cite}
   - Linkage [[@sloan_etal2020]]{.cite}
   - Sensors [[@struminskaya_etal2021]]{.cite}

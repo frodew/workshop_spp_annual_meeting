@@ -84,9 +84,9 @@ The participant's perspective.
 ## Changes in legal contexts ⚖️ {.smaller}
 
 - EU secures right to own data in Art. 15 of the [General Data Protection Regulation](https://gdpr-info.eu/)
-  - "The data subject shall have [...] access to the personal data" (§ Art. 15, 1)
-  - "The controller shall provide a copy of the personal data" (§ Art. 15, 3)
-- According to § Art. 20, users must receive their data "in a structured, commonly used and machine-readable format" (§ Art. 20, 1)
+  - \"The data subject shall have [...] access to the personal data\" (§ Art. 15, 1)
+  - \"The controller shall provide a copy of the personal data\" (§ Art. 15, 3)
+- According to § Art. 20, users must receive their data \"in a structured, commonly used and machine-readable format\" (§ Art. 20, 1)
 
 👉 **Solution:** Platforms offer data download packages (DDPs), which users can request and download to inspect data.
 
@@ -122,7 +122,7 @@ For platforms like YouTube, Instagram, or LinkedIn, for example... [[@hase_etal2
 Compared to **APIs** [[@ohme_etal2024]]{.cite}...
 
 - Control & informed consent of users
-- Longitudinal data without "rate limits"
+- Longitudinal data without \"rate limits\"
 - Partly additional measurements (e.g., exposure data; non-public data)
 
 👉 but can be burdensome for participants!
@@ -146,14 +146,6 @@ Compared to **APIs** [[@ohme_etal2024]]{.cite}...
     <td style="text-align: center;">Consent</td>
   </tr>
 </table>
-:::
-
----
-
-::: {.v-center}
-
-🤔 How easy (or hard) did you find it to request your data? Did you encounter any obstacles?
-
 :::
 
 ## {{< fa square-poll-horizontal >}} Survey

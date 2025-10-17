@@ -127,8 +127,8 @@ The researcher's perspective.
 ::: {.column width="60%"}
 - **Goal**: Increase participation in the context of labour market studies and understand non-response bias
 - **Issue**: Low response rates (e.g., [[@hase_haim2024; @keusch_etal2024]]{.cite})
-    - Behavioral intentions as "willingness to donate" high (79-52% of survey respondents)
-    - Actual behavior as "participation in data donation" low (37-12% of survey respondents)
+    - Behavioral intentions as \"willingness to donate\" high (79-52% of survey respondents)
+    - Actual behavior as \"participation in data donation\" low (37-12% of survey respondents)
     - Well known intention-behavior gap; where 🤑 seems to help [[@kmetty_etal2025]]{.cite}
 - **Sample**: A non-probability panel (online access panel)
 :::
