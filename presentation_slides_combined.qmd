@@ -81,6 +81,9 @@ format:
 ## Our Agenda
 
 ::: {.v-center}
+**frodew.github.io/workshop_spp_annual_meeting/**
+\
+\
 1️⃣ What is digital trace data?
 \
 \
@@ -347,12 +350,9 @@ Different degrees in standardization for data requests [[@hase_etal2024]]{.cite}
 ---
 
 ::: {.v-center}
-**📢 Task: Try it yourself.**
-
-You might have already requested and downloaded your data in preparation for today.
+🤔 You might have already requested and downloaded your data in preparation for today. Did you encounter any difficulties in requesting and downloading your data?
 \
-\
-Did you encounter any difficulties in sharing your data?
+We will dive into the content of your data a bit later.
 :::
 
 

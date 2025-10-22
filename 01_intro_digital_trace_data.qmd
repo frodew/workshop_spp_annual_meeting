@@ -80,6 +80,9 @@ format:
 ## Our Agenda
 
 ::: {.v-center}
+**frodew.github.io/workshop_spp_annual_meeting/**
+\
+\
 1️⃣ What is digital trace data?
 \
 \
