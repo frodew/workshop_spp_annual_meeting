@@ -126,7 +126,7 @@ More info: [github.com/frodew](https://github.com/frodew) & [frieder-rodewald.de
 ---
 
 ::: {.v-center}
-A huge thanks to [Valerie Hase](https://valerie-hase.com), for conceptualizing a previous data donation workshop at CompText in Vienna.
+A huge thanks to [Valerie Hase](https://valerie-hase.com), for contributing to the conceptualizion of a previous data donation workshop at CompText in Vienna.
 :::
 
 ## What is the goal of this workshop?
@@ -374,9 +374,7 @@ The researcher's perspective.
 🤔 What are methodological decisions researchers have to take in data donation studies?
 :::
 
----
-
-🔑 Key decisions:
+## 🔑 Key decisions
 
 - Which theoretical questions do I want to answer?
 - How do I operationalize key variables via my data donation tool?
@@ -408,12 +406,12 @@ The researcher's perspective.
 ## Decisions we took {.smaller}
 
 :::: {.columns style="background: none;"}
-::: {.column width="33%"}
-![](images/preprint_cover.png){width="96%" fig-align="center"}
+::: {.column width="34%"}
+![](images/preprint_cover.png){width="98%" fig-align="center"}
 :::
 ::: {.column width="60%"}
-- **Goal**: Increase participation in the context of labour market studies and understand non-response bias
-- **Issue**: Low response rates (e.g., [[@hase_haim2024; @keusch_etal2024]]{.cite})
+- **Goal**: Feasability to implement data donation in a labor market panel, develop best-use practices, and understand non-response bias
+- **Issues**: Data availability, low response rates and bias (e.g., [[@keusch_etal2024]]{.cite})
     - Behavioral intentions as \"willingness to donate\" high (79-52% of survey respondents)
     - Actual behavior as \"participation in data donation\" low (37-12% of survey respondents)
     - Well known intention-behavior gap; where 🤑 seems to help [[@kmetty_etal2025]]{.cite}

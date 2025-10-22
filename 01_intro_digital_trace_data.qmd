@@ -125,7 +125,7 @@ More info: [github.com/frodew](https://github.com/frodew) & [frieder-rodewald.de
 ---
 
 ::: {.v-center}
-A huge thanks to [Valerie Hase](https://valerie-hase.com), for conceptualizing a previous data donation workshop at CompText in Vienna.
+A huge thanks to [Valerie Hase](https://valerie-hase.com), for contributing to the conceptualizion of a previous data donation workshop at CompText in Vienna.
 :::
 
 ## What is the goal of this workshop?
